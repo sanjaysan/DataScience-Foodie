@@ -1,0 +1,5 @@
+Length in chars
+Is preceded by super
+Is preceded by was/a/are/is/were/so
+Is preceded by very
+Is positive example

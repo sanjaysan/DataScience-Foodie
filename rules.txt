@@ -1,0 +1,15 @@
+Adjective =>
+
+Followed by an exclamation
+(X)Capitalized word
+(X)Followed by comma  ( Ex: selections feel authentic )
+
+length in chars
+preceded by "was" , "a" ," are" , "is"  ( a lovely word, both are excellent, ice is decent )
+preceded by "so"  ( so friendly )
+preceded by "super"
+preceded by "very"
+
+blacklist rule-> If str contains numeric characters
+	def hasNumbers(inputString):
+...     return any(char.isdigit() for char in inputString)	
