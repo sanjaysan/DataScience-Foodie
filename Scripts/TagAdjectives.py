@@ -59,18 +59,3 @@ for filename in os.listdir(directory):
             # Writing back to the file
             print line
     f.close()
-
-''' content.append(tagged)
-    print len(content)
-    print len(content[1])
-    j = 0
-    for i in range(0, len(content)):
-        for j in range(0, len(content[i])):
-            if (len(content[i]) != 0):
-                if content[i][j][1] == 'JJ' or content[i][j][1] == 'JJR' or content[i][j][1] == 'JJS':
-                    new_file.write("<adj>" + content[i][j][0] + "</adj>" + " ")
-                else:
-                    new_file.write(content[i][j][0] + " ")
-            else:
-                new_file.write("\n")
-            j += 1'''
