@@ -1,44 +1,44 @@
-I have a new appreciation for the state of Texas because of this restaurant...
+i have a <adj> new </adj> appreciation for the state of texas because of this restaurant...
 
-Warning: If you're used to Outback Steakhouse or your grandmother's portions, you'll be sorely disappointed in the experience here at Barley Swine. It's a tasting menu for starts...
+warning: if you're used to outback steakhouse or your grandmother's portions, you'll be sorely disappointed in the experience here at <adj> barley </adj> swine. it's a tasting menu for starts...
 
-My husband and I are originally from San Francisco: a place where there is an abundance of Michelin star restaurants. This place combined the best of two of those restaurants : the modern and technical Japanese cuisine of Kusakabe, and the organic, down-to-earth seasonal menu of The Village Pub.
+my husband and i are originally from <adj> san </adj> francisco: a place where there is an abundance of michelin star restaurants. this place combined the <adj> best </adj> of two of those restaurants : the <adj> modern </adj> and <adj> technical </adj> <adj> japanese </adj> cuisine of kusakabe, and the <adj> organic </adj>, <adj> down-to-earth </adj> <adj> seasonal </adj> menu of the village pub.
 
-Dish after dish we were surprised to see more than just all-around amazing-tasting food. There were plates presented to us with the look of a delicate, Asian-inspired dish that tasted like the comforting meal that was roasted over your backyard fire pit. They used their sauces to tie in sweet, savory, fruity, and nutty elements throughout their courses - that's definitely a mark of a great restaurant who knows their stuff.
+dish after dish we were surprised to see <adj> more </adj> than just <adj> all-around </adj> <adj> amazing-tasting </adj> food. there were plates presented to us with the look of a <adj> delicate </adj>, <adj> asian-inspired </adj> dish that tasted like the comforting meal that was roasted over your backyard fire pit. they used their sauces to tie in sweet, savory, fruity, and <adj> nutty </adj> elements throughout their courses - that's definitely a mark of a <adj> great </adj> restaurant who knows their stuff.
 
-Thank you, Barley Swine, for a wonderful food experience that was amazing from start to finish. The service was very cordial and the overall timing of the food was well planned and thought out. We've already invited more people for next time!
+thank you, barley swine, for a <adj> wonderful </adj> food experience that was amazing from start to finish. the service was very <adj> cordial </adj> and the <adj> overall </adj> timing of the food was well planned and thought out. we've already invited <adj> more </adj> people for <adj> next </adj> time!
 
-Our Experience
+our experience
 ----------
 
-Sweet Potato, goat cheese
-+ Cheese usually goes over potatoes no? Surprised at the crunchy shell that led to the soft cheese filling
+<adj> sweet </adj> potato, goat cheese
+- cheese usually goes over potatoes no? surprised at the crunchy shell that led to the <adj> soft </adj> cheese filling
 
-Beet cured mackerel and pine
-+ Ironically, I'd describe this as an earthy seafood dish... It's amazing with what you did with the aftertaste. 
+beet cured mackerel and pine
+- ironically, <adj> i </adj>'d describe this as an <adj> earthy </adj> seafood dish... it's amazing with what you did with the aftertaste. 
 
-Sunchoke custard
-+ Man, you guys do deviled eggs well... I wish the apple bits were brought out a little more in the custard though. This was the only underwhelming dish you had tonight.
+sunchoke custard
+- man, you guys do deviled eggs well... <adj> i </adj> wish the apple bits were brought out a little more in the custard though. this was the <adj> only </adj> <adj> underwhelming </adj> dish you had tonight.
 
-Ember roasted squash, mesquite, toasted seeds
-+ Wonderful unfolding of many flavors. Technically well done
+ember roasted squash, mesquite, toasted seeds
+- wonderful unfolding of <adj> many </adj> flavors. technically well done
 
-Red shrimp, cauliflower, tangerine
-+ I hate shrimp. I love this dish. WTH. Shoutouts to the chef at the grill and the person who made the sauce. It was AMAZING, cooked perfectly, and beautifully balanced.
+<adj> red </adj> shrimp, cauliflower, tangerine
+- i hate shrimp. i love this dish. wth. shoutouts to the chef at the grill and the person who made the sauce. it was amazing, cooked perfectly, and beautifully balanced.
 
-Akaushi beef, oyster mushroom, seeded loaf
-+ The marrow broth had so much flavor. The ribeye steak was very tender and flavorful. The arugula pesto could stand on its own with the bread but also be used to cut the saltiness in the leftover broth so well.
+akaushi beef, oyster mushroom, seeded loaf
+- the marrow broth had so <adj> much </adj> flavor. the ribeye steak was very <adj> tender </adj> and <adj> flavorful </adj>. the arugula pesto could stand on its <adj> own </adj> with the bread but also be used to cut the saltiness in the leftover broth so well.
 
-Pork belly, cabbage, Gulf XO sauce
-+ The southern sushi : a very unique dish where the cabbage is cooked like seaweed, but made the dish smell like a backyard bbq. Tasted like some good shrimp and grits with fresh, pickled cabbage in tow to change it up.
+pork belly, cabbage, gulf xo sauce
+- the <adj> southern </adj> sushi : a very <adj> unique </adj> <adj> dish </adj> where the cabbage is cooked like seaweed, but made the <adj> dish </adj> smell like a backyard bbq. tasted like some <adj> good </adj> shrimp and grits with <adj> fresh </adj>, <adj> pickled </adj> cabbage in tow to change it up.
 
-Duck, broccoli, fried duck egg 
-+ Perfectly cooked duck with a great crisp on the skin. Broccoli played a different role as an integral part of the dish rather than the typical side filler. Did I say that that your sauces are ON POINT?!
+duck, broccoli, fried duck egg 
+- perfectly cooked duck with a <adj> great </adj> crisp on the skin. broccoli played a <adj> different </adj> role as an <adj> integral </adj> part of the dish rather than the <adj> typical </adj> side filler. did i say that that your sauces are on point?!
 
-Apple, lemon grass, koji rice pudding
-+ Timed perfectly in the menu. Great balance between sweet, nutty, fruity, tart, and milky. Coconut and apple introduced great character in the dish while the crispy rice gave it the texture it needed.
+apple, <adj> lemon </adj> grass, koji rice pudding
+- timed perfectly in the menu. <adj> great </adj> balance between <adj> sweet </adj>, nutty, fruity, tart, and milky. coconut and apple introduced <adj> great </adj> character in the dish while the <adj> crispy </adj> rice gave it the texture it needed.
 
-Dark chocolate ganache with caramel and tangerine
-+ Great capper for the end. Sweet, but not too sweet. Really liked how the crust pulled in that citrusy, nutty flavor from the toppings on the ganache 
+<adj> dark </adj> chocolate ganache with caramel and tangerine
+- <adj> great </adj> capper for the end. <adj> sweet </adj>, but not too <adj> sweet </adj>. really liked how the crust pulled in that citrusy, <adj> nutty </adj> flavor from the toppings on the ganache 
 
-And thanks for the adorable pastries :) I would only complain about the tea as it didn't match the level of the food menu, but then again, who cares.
+and thanks for the <adj> adorable </adj> pastries :) i would only complain about the tea as it didn't match the level of the food menu, but then again, who cares.

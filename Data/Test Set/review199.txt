@@ -1,5 +1,5 @@
-If you are a foodie who loves pasta, you need to come to this place! 
-Authentic, homemade pasta. Everyday is a different dish they feature. It's a small restaurant so get their early. 
-Although even on busy days, the service is fast and friendly. 
-Let's talk about the food. It was beyond delicious. Everything about it was so tasty. I loved their kale salad! So good! 
-I swear, after you read this, Go now!
+if you are a foodie who loves pasta, you need to come to this place! 
+<adj> authentic </adj>, <adj> homemade </adj> pasta. everyday is a <adj> different </adj> dish they feature. it's a <adj> small </adj> restaurant so get their <adj> early </adj>. 
+although even on <adj> busy </adj> days, the service is <adj> fast </adj> and <adj> friendly </adj>. 
+let's talk about the food. it was beyond <adj> delicious </adj>. everything about it was so <adj> tasty </adj>. i loved their <adj> kale </adj> salad! so <adj> good </adj>! 
+i swear, after you read this, go now!

@@ -1,13 +1,13 @@
-A friend of mine and I came here for dinner on Thursday night, as it's her favorite restaurant in ATX. We shared everything family style, and loved all of our food:
+a friend of mine and i came here for dinner on <adj> thursday </adj> night, as it's her <adj> favorite </adj> restaurant in atx. we shared everything family style, and loved all of our food:
 
-- blistered shishito peppers: miso aioli 
-- raw kale and carrot salad: red quinoa  red grapes  red onion  chickpea dressing  dill
-- seared faroe island salmon: pork belly fried rice  coconut  nam pla  zucchini  cilantro  mint
+- blistered <adj> shishito </adj> peppers: miso aioli 
+- raw kale and carrot salad: <adj> red </adj> quinoa  <adj> red </adj> grapes  <adj> red </adj> onion  chickpea dressing  dill
+- seared <adj> faroe </adj> island salmon: pork belly <adj> fried </adj> rice  coconut  <adj> nam </adj> pla  zucchini  cilantro  mint
 
-For dessert:
+for dessert:
 
 - passion fruit chocolate fudge: coconut  cocoa nib
 
-And to drink, I ordered:
+and to drink, i ordered:
 
-- Lechuza: Tequila y Mezcal  Hibiscus  White Grapefruit  Canela
+- lechuza: tequila y <adj> mezcal </adj>  hibiscus  <adj> white </adj> grapefruit  canela

@@ -1,8 +1,8 @@
-A Few First Impressions:
+a <adj> few </adj> <adj> first </adj> impressions:
 
-Adam is a serious yet quick with a smile helpful manager. His beer recs for my man were spot on.
-Zack is the fastest moving bartender in Austin. 
-The interior is gorgeous. I love the neutral tones and unique spaces with the high and low tables. 
-Sunday Dim Sum is slightly odd but unique. It interrupted our conversation but I think that should be expected. The one or two items we selected were delicious!
-The lamb dish was amazing. It did not have a wild flavor and tasted more like a pulled pork.
-The beet concoction was insanely and quantifiably fabulous! Just trust me.
+adam is a <adj> serious </adj> yet <adj> quick </adj> with a <adj> smile </adj> <adj> helpful </adj> manager. his beer recs for my man were spot on.
+zack is the <adj> fastest </adj> moving bartender in austin. 
+the interior is <adj> gorgeous </adj>. i love the <adj> neutral </adj> tones and <adj> unique </adj> spaces with the <adj> high </adj> and <adj> low </adj> tables. 
+<adj> sunday </adj> dim sum is slightly <adj> odd </adj> but <adj> unique </adj>. it interrupted our conversation but <adj> i </adj> think that should be expected. the one or two items we selected were <adj> delicious </adj>!
+the <adj> lamb </adj> dish was amazing. it did not have a <adj> wild </adj> flavor and tasted more like a <adj> pulled </adj> pork.
+the beet concoction was insanely and quantifiably <adj> fabulous </adj>! just trust me.

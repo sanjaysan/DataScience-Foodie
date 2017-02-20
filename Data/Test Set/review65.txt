@@ -1,19 +1,19 @@
-I really enjoyed this experience!
+i really enjoyed this experience!
 
-Korean BBQ tapas. We shared four.
+<adj> korean </adj> bbq tapas. we shared four.
 
-The first to arrive was a Korean seafood pancake which was <adj> delicious </adj>. Highly recommended. It comes with a little au jus that adds a perfect additional bit of saltiness and mild heat.
+the <<adj> adj </adj>> first </<adj> adj </adj>> to arrive was a <<adj> adj </adj>> korean </<adj> adj </adj>> seafood pancake which was <<adj> adj </adj>> <adj> delicious </adj> </<adj> adj </adj>>. highly <adj> recommended </adj>. it comes with a <adj> little </adj> <adj> au </adj> jus that adds a <adj> perfect </adj> <adj> additional </adj> bit of saltiness and <adj> mild </adj> heat.
 
-The next was their crispy chicken in a sweet and spicy sauce and black sesame crumbles. Also delicious and also highly recommended.
+the <adj> next </adj> was their crispy chicken in a <adj> sweet </adj> and spicy sauce and <adj> black </adj> sesame crumbles. also <adj> delicious </adj> and also highly recommended.
 
-Third, we had the "kimchi paellea". It looks like paella but with the creamiest rice at the base. I enjoyed it, but it didn't do it for me. Hey, listen, I was plenty happy already.
+<adj> third </adj>, we had the "<adj> kimchi </adj> paellea". it looks like paella but with the <adj> creamiest </adj> rice at the base. <adj> i </adj> enjoyed it, but it didn't do it for me. hey, listen, <adj> i </adj> was <adj> plenty </adj> <adj> happy </adj> already.
 
-Fourth, we had a tofu chili. It was interesting. It came with nacho chips.  I can't say it was my type of dish, but I enjoyed having tasted it.
+<adj> fourth </adj>, we had a <adj> tofu </adj> chili. it was interesting. it came with <adj> nacho </adj> chips.  i can't say it was my type of dish, but i enjoyed having tasted it.
 
-The service was <adj> awesome </adj>. Aside from being polite and attentive in the normal course, they made sure to present each dish so nicely and with such passion that it added to the experience immensely. With each dish was a further description of what it was, how it was made, whether there was a particular way it was recommend to eat it, what the sauce that they brought would serve to do to the flavor, etc.  I really appreciate that kind of presentation that really looks to maximize the patrons' enjoyment of the meal.
+the service was <<adj> adj </adj>> awesome </<adj> adj </adj>>. aside from being <adj> polite </adj> and <adj> attentive </adj> in the <adj> normal </adj> course, they made <adj> sure </adj> to present each dish so nicely and with <adj> such </adj> passion that it added to the experience immensely. with each dish was a <adj> further </adj> description of what it was, how it was made, whether there was a <adj> particular </adj> way it was recommend to eat it, what the sauce that they brought would serve to do to the flavor, etc.  i really appreciate that kind of presentation that really looks to maximize the patrons' enjoyment of the meal.
 
-Lastly, we had dessert. It was "popcorn ice cream" with a salted caramel sauce. It was tasty and indulgent, though rather basic at its root. The portion could've been a tiny bit larger for $9...I mean, it's vanilla ice cream and popcorn.  That commentary about the desert certainly doesn't upend all that was awesome about this meal.
+lastly, we had dessert. it was "<adj> popcorn </adj> ice cream" with a <adj> salted </adj> caramel sauce. it was <adj> tasty </adj> and <adj> indulgent </adj>, though rather <adj> basic </adj> at its root. the portion could've been a <adj> tiny </adj> bit <adj> larger </adj> for $9...<adj> i </adj> mean, it's <adj> vanilla </adj> ice cream and <adj> popcorn </adj>.  that <adj> commentary </adj> about the desert certainly doesn't upend all that was awesome about this meal.
 
-Oh, and we can end on a high note. The drinks - many of which are served in Capri-Sun-style bags with light up ice cubes in them - were also really tasty. I had a mango lychee one with soju (20% alcohol) and I'd happily do it again.
+oh, and we can end on a <adj> high </adj> note. the drinks - <adj> many </adj> of which are served in <adj> capri-sun-style </adj> bags with <adj> light </adj> up ice cubes in them - were also really <adj> tasty </adj>. <adj> i </adj> had a mango lychee one with soju (20% alcohol) and <adj> i </adj>'d happily do it again.
 
-I will definitely return.
+i will definitely return.

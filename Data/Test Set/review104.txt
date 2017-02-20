@@ -1,5 +1,5 @@
-This is a great bar around Times Square area. Trendy and very nicely decorated classic interiors with high tables + seats. I went in for a drink after dinner - couldn't try the appetizers but would love to taste some in the near future!
+this is a <adj> great </adj> bar around times <adj> square </adj> area. trendy and very nicely decorated <adj> classic </adj> interiors with <adj> high </adj> tables - seats. <adj> i </adj> went in for a drink after dinner - couldn't try the appetizers but would love to taste some in the <adj> near </adj> future!
 
-We ordered two cocktails - Willy Wonka and Kinky Boots! (love the names - perfect for the location!)
-Willy Wonka - Just as the name may imply, this magical drink is full of sweet chocolate flavors and toasted Marshmallows on top. Really loved the taste. (Not too sweet)
-Kinky Boots - This Fruity Cocktail is kinking with citrus flavor.
+we ordered two cocktails - willy wonka and kinky boots! (love the names - perfect for the location!)
+willy wonka - just as the name may imply, this <adj> magical </adj> drink is <adj> full </adj> of <adj> sweet </adj> chocolate flavors and toasted marshmallows on top. really loved the taste. (not too <adj> sweet </adj>)
+kinky boots - this fruity cocktail is kinking with <adj> citrus </adj> flavor.

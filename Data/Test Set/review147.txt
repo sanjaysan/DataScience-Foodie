@@ -1,5 +1,5 @@
-Solid four stars at Second Bar + Kitchen. This restaurant is located conveniently across the JW Marriott and can get packed during dinner. We were promptly seated when we arrived around 6:30pm on a Thursday night.
+<adj> solid </adj> four stars at <adj> second </adj> bar - kitchen. this restaurant is located conveniently across the jw marriott and can get packed during dinner. we were promptly seated when we arrived around 6:30pm on a <adj> thursday </adj> night.
 
-Food wise, I would recommend what we tried - the soba noodles with sesame, mushrooms & avocado as well as the pork belly and poached eggs. The faroe island salmon had a delicious pork belly fried rice but the salmon was just slightly over cooked.  I had the green river cocktail. It was the first time I had a cocktail with green chartreuse (kinda herbaceous) and it was super delicious! There's a good variety in the menu that should suit a variety of palates.
+food wise, i would recommend what we tried - the <adj> soba </adj> noodles with sesame, mushrooms & avocado as well as the pork belly and poached eggs. the <adj> faroe </adj> island salmon had a <adj> delicious </adj> pork belly <adj> fried </adj> rice but the salmon was just slightly over cooked.  i had the <adj> green </adj> river cocktail. it was the <adj> first </adj> time i had a cocktail with <adj> green </adj> chartreuse (kinda <adj> herbaceous </adj>) and it was <adj> super </adj> <adj> delicious </adj>! there's a <adj> good </adj> variety in the menu that should suit a variety of palates.
 
-Our server was attentive and knowledgeable. Overall, a good experience here.
+our server was <adj> attentive </adj> and <adj> knowledgeable </adj>. <adj> overall </adj>, a <adj> good </adj> experience here.

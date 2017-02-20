@@ -1,3 +1,3 @@
-The first time I wanted to stop in was on a Saturday and the line was out the door.  I stopped back on a Wednesday about 3:30 PM and the place was still very busy but I found a table.  Lunch menu is dirt cheap at $10.50.  I had the pickle soup (chicken stock with veggies - OK but different) and a breaded pork cutlet which was very nice. I was a happy camper.
+the <adj> first </adj> time <adj> i </adj> wanted to stop in was on a saturday and the line was out the door.  <adj> i </adj> stopped back on a wednesday about 3:30 pm and the place was still very <adj> busy </adj> but <adj> i </adj> found a table.  lunch menu is <adj> dirt </adj> cheap at $10.50.  <adj> i </adj> had the pickle soup (<adj> chicken </adj> stock with veggies - ok but <adj> different </adj>) and a breaded pork cutlet which was very <adj> nice </adj>. <adj> i </adj> was a <adj> happy </adj> camper.
 
-Kind of old fashioned but the place works for me.
+kind of <adj> old </adj> fashioned but the place works for me.

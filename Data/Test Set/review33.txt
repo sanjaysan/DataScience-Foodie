@@ -1,7 +1,7 @@
-I have been here before but my east coast buddy had one night in Seattle and had never been. I kind of figured it was gonna be lackluster having been before but...
+<adj> i </adj> have been here before but my <adj> east </adj> coast buddy had one night in seattle and had never been. <adj> i </adj> kind of figured it was gonna be <adj> lackluster </adj> having been before but...
 
-Impeccable service and food. If you ask for a tour they'll take you after dessert (make sure to tip :-))
+<adj> impeccable </adj> service and food. if you ask for a tour they'll take you after dessert (make <adj> sure </adj> to tip :-))
 
-Recommend the 9pm seating. You'll get the window you requested and feel like the only ones there. 
+recommend the 9pm seating. you'll get the window you requested and feel like the <adj> only </adj> ones there. 
 
-Renewed respect. You're no longer that place I'm supposed to like.
+renewed respect. you're no <adj> longer </adj> that place i'm supposed to like.

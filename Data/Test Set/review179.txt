@@ -1,3 +1,3 @@
-Man, what a great experience. Customer service on point, food exceptional, drinks original, and ambiance was perfect...couldn't get any better! 
+man, what a <adj> great </adj> experience. customer service on point, food <adj> exceptional </adj>, <adj> drinks </adj> <adj> original </adj>, and ambiance was <adj> perfect </adj>...couldn't get any <adj> better </adj>! 
 
-Good work.
+<adj> good </adj> work.

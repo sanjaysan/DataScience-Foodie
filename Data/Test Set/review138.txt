@@ -1,3 +1,3 @@
-H-O-L-Y happy hour. A bottle of wine and appetizers for two - this is the place to go. The environment is more on the romantic side, but is also a more modern chic environment as well.
+<adj> h-o-l-y </adj> <adj> happy </adj> hour. a bottle of wine and appetizers for two - this is the place to go. the environment is more on the <adj> romantic </adj> side, but is also a more <adj> modern </adj> <adj> chic </adj> environment as well.
 
-I absolutely love their grilled Caesar Salad - the heads of lettuce are literally grilled and have the dressing and parmesan thrown on top. The gnocchi is also a great choice. The eggplant parmigiana is next on my list :)
+i absolutely love their <adj> grilled </adj> caesar salad - the heads of lettuce are literally <adj> grilled </adj> and have the dressing and <adj> parmesan </adj> thrown on top. the gnocchi is also a <adj> great </adj> choice. the <adj> eggplant </adj> parmigiana is <adj> next </adj> on my list :)

@@ -1,7 +1,7 @@
-The food was really good. Came here late one Friday night with the girlfriend and had a great dinner. The place was pretty busy so our waitress left us waiting for periods on end but that's to be expected, I guess. 
+the food was really <adj> good </adj>. came here <adj> late </adj> one friday night with the girlfriend and had a <adj> great </adj> dinner. the place was pretty <adj> busy </adj> so our waitress left us waiting for periods on end but that's to be expected, <adj> i </adj> guess. 
 
-Anyway, the food we had completely redeemed any deficiencies in service we experienced. We began with the avocado fundido which was fantastic. Loved the sophisticated Doritos vibe of the tortilla chips and the cheesy, beefy guac was perfect. We also had the truffle pomme frites and panzanella as apps which were both ptich perfect.
+anyway, the food we had completely redeemed any deficiencies in service we experienced. we began with the avocado fundido which was <adj> fantastic </adj>. loved the <adj> sophisticated </adj> doritos vibe of the tortilla chips and the cheesy, beefy guac was <adj> perfect </adj>. we also had the truffle pomme frites and panzanella as apps which were both <adj> ptich </adj> <adj> perfect </adj>.
 
-They ran out of the braised beef ravioli so my girlfriend went with the Soba noodles instead, which she seemed to really enjoy. I had the braised beef short rib with fired onions and grits which my craving for southern red meat squarely in the spot. The perfect date spot for those looking for one.
+they ran out of the <adj> braised </adj> beef ravioli so my girlfriend went with the soba noodles instead, which she seemed to really enjoy. i had the <adj> braised </adj> beef <adj> short </adj> rib with <adj> fired </adj> onions and grits which my craving for <adj> southern </adj> <adj> red </adj> meat squarely in the spot. the <adj> perfect </adj> date spot for those looking for one.
 
-Go here.
+go here.
