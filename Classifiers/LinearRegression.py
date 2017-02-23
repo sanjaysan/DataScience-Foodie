@@ -6,3 +6,4 @@ labels   = np.load('Data/Training/target_label.npy')
 
 reg = linear_model.LinearRegression()
 
+
