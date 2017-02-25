@@ -72,7 +72,7 @@ def GenNegFys( list_of_words,target_num ):
 
 			""" Pruning examples"""
 
-			if  fys_list[0] >=4 and fys_list[1] + fys_list[2] + fys_list[3] >= 1 :
+			if  fys_list[1] + fys_list[2] + fys_list[3] >= 1 :
 
 				features.append( fys_list )
 				negative_words.append( list_of_words[windx] )
@@ -96,7 +96,7 @@ def GenNegFys( list_of_words,target_num ):
 
 			
 				if ( len ( list_of_words[windx] ) >= 4 ):
-					fys_list = [len(list_of_words),0,0,0]
+					fys_list = [len( list_of_words[windx] ),0,0,0]
 					features.append ( fys_list )
 					negative_words.append( list_of_words[windx] )
 					num_negative+=1
@@ -107,3 +107,4 @@ def GenNegFys( list_of_words,target_num ):
 
 
 	return features,negative_words
+
