@@ -1,7 +1,6 @@
 import fileinput
 import os
 import re
-import sys
 import nltk
 
 directory = "/home/sanjay/Documents/UW Madison/Semester II/Data Science/DataScience-Foodie/Data/Test Set"
