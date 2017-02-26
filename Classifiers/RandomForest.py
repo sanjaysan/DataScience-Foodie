@@ -8,8 +8,8 @@ clf = RandomForestClassifier(n_estimators=20)
 
 # 5-fold cross validation to get precision
 scores = cross_val_score(clf, features, labels, cv = 5, scoring = 'precision')
-print(np.mean(scores))
+print "Precision: ", np.mean(scores)
 
 # 5-fold cross validation to get recall
 scores = cross_val_score(clf, features, labels, cv = 5, scoring = 'recall')
-print(np.mean(scores))
+print "Recall: ", np.mean(scores)
