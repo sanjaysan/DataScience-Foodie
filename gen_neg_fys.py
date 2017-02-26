@@ -9,7 +9,7 @@ import re
 from sets import Set
 
 
-def GenNegFys( list_of_words,target_num ):
+def GenNegFys( list_of_words,target_num,noun_set ):
 
 	features = []
 	negative_words = []
@@ -18,13 +18,16 @@ def GenNegFys( list_of_words,target_num ):
 	tag2	= "</adj>"
 	tag_set = Set( [tag1,tag2] )
  
-	third_features = Set( ['was','a','are','is','so','were'] )
+	third_features = Set( ['was','a','are','an','is','so','were'] )
 	
 	num_negative = 0
 
 	for windx in range( len(list_of_words) ):
 
 		prev_word_indx = windx - 1
+
+		if num_negative > target_num:
+			break
 
 		if prev_word_indx >=0  and list_of_words[windx] not in tag_set and tag1 not in list_of_words[windx] and tag2 not in list_of_words[windx] :
 
@@ -69,10 +72,23 @@ def GenNegFys( list_of_words,target_num ):
 			
 				fys_list.append( int(0) )
 
+			suc_word_indx = windx + 1
+			suc_word = ""
+	
+			if   suc_word_indx < len( list_of_words ) :
+	
+				suc_word = list_of_words[ suc_word_indx ]
+
+			if suc_word in noun_set:
+				fys_list.append( int(1) )
+			else:
+				fys_list.append( int(0) )
+
+
 
 			""" Pruning examples"""
 
-			if  fys_list[0] >=4 and fys_list[1] + fys_list[2] + fys_list[3] >= 1 :
+			if  fys_list[1] + fys_list[2] + fys_list[3] + fys_list[4] >= 1 :
 
 				features.append( fys_list )
 				negative_words.append( list_of_words[windx] )
@@ -96,7 +112,7 @@ def GenNegFys( list_of_words,target_num ):
 
 			
 				if ( len ( list_of_words[windx] ) >= 4 ):
-					fys_list = [len(list_of_words),0,0,0]
+					fys_list = [len( list_of_words[windx] ),0,0,0,0]
 					features.append ( fys_list )
 					negative_words.append( list_of_words[windx] )
 					num_negative+=1
@@ -107,3 +123,4 @@ def GenNegFys( list_of_words,target_num ):
 
 
 	return features,negative_words
+

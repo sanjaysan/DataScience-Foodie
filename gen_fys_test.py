@@ -6,17 +6,90 @@
 import re
 import os
 import numpy
-import nltk
 from sets import Set
 from collections import defaultdict
-from gen_neg_fys import GenNegFys
+
+
+
+def hasNumbers(inputString):
+      return any(char.isdigit() for char in inputString)
+
+
+def GenNegFys( list_of_words ):
+
+	features = []
+	negative_words = []
+
+	tag1    = "<adj>"
+	tag2	= "</adj>"
+	tag_set = Set( [tag1,tag2] )
+ 
+	third_features = Set( ['was','a','are','is','so','were'] )
+	
+
+	for windx in range( len(list_of_words) ):
+
+		prev_word_indx = windx - 1
+
+		if prev_word_indx >=0  and list_of_words[windx] not in tag_set and tag1 not in list_of_words[windx] and tag2 not in list_of_words[windx] :
+
+
+			""" Feature - len in chars """
+
+			fys_list = []
+
+			fys_list.append ( len( list_of_words[windx] ) )
+
+
+			""" Feature-Preceded by Super """
+		
+			prev_word_indx_2 = prev_word_indx-1
+
+			if prev_word_indx_2 > 0 :
+
+				if  list_of_words[ prev_word_indx_2 ].lower() == "super" :
+			
+					fys_list.append( int(1) )
+				else:
+					fys_list.append( int(0) )
+
+			else:
+
+				fys_list.append( int(0) )
+		
+			""" Feature- third and fourth """
+
+			prev_word = list_of_words[ prev_word_indx ]
+		
+			if prev_word.lower() in third_features :
+
+				fys_list.append( int(1) )
+			else:
+			
+				fys_list.append( int(0) )
+
+			if prev_word.lower() == "very":
+				fys_list.append( int(1) )
+			else:
+			
+				fys_list.append( int(0) )
+
+
+			features.append( fys_list )
+			negative_words.append( list_of_words[windx] )
+			
+
+
+
+	return features,negative_words
+
 
 
 """ An adjective is only one word long """
 
 p = re.compile("<adj> (\w+) </adj>")
 
-training_words = []
+testing_words = []
 features = []
 feature_names = []
 target_label = []
@@ -25,20 +98,18 @@ feature_names.append("Length in chars")
 feature_names.append("Is preceded by super")
 feature_names.append("Is preceded by was/a/are/is/were/so")
 feature_names.append("Is preceded by very")
-feature_names.append("Is succeded by noun")
+feature_names.append("Is positive example")
 
 
 list_indx = 0
 
-third_features = Set( ['was','a','an','are','is','so','were'] )
+third_features = Set( ['was','a','are','is','so','were'] )
 
-directory = "/home/sabareesh/DataScience/DataScience-Foodie/Data/Dev_Set/"
+directory = "/home/sabareesh/DataScience/DataScience-Foodie/Data/Test_Set/"
 
-it = 0
 
 for filename in os.listdir(directory):
 		
-
 	filepath = directory + filename
 
 	with open(filepath,'r') as myFile:
@@ -51,12 +122,6 @@ for filename in os.listdir(directory):
 	    (list_indx,visited_flag). Thus a key will point to a list
 	    if multiple occurences are present """
 	
-	tokens = nltk.word_tokenize(data)
-	tagged = nltk.pos_tag(tokens)
-	nouns = [ word for word,pos in tagged if pos.startswith('N') ]
-	cleaned_nouns = [ word for word in nouns if word != '>' and word != '<' and word != '/adj' and word != 'adj']
-	noun_set = Set(cleaned_nouns)
-
 	
 
 	list_of_words = data.split()
@@ -111,12 +176,8 @@ for filename in os.listdir(directory):
 	
 			prev_word_indx =  cur_indx - 2
 			prev_word_indx_2 = prev_word_indx-1
-
 			prev_word = ""
 			prev_word_2 = ""
-
-			suc_word_indx = cur_indx + 2
-			suc_word = ""
 	
 	
 	        	""" Preceded by super """
@@ -162,47 +223,30 @@ for filename in os.listdir(directory):
 				features[list_indx].append( int(0) )
 	
 			
-			""" Succeded by noun """
+			list_indx+=1
 
-			if   suc_word_indx < len( list_of_words ) :
-	
-				suc_word = list_of_words[ suc_word_indx ]
-
-			if suc_word in noun_set:
-
-				features[list_indx].append( int(1) )
-			else:
-
-				features[list_indx].append( int(0) )
-
-			
-			
-			list_indx+=1	
-	
-	
 			
 				
-	target_num     = len(positive_words) + 8 
-	[negative_fys,negative_words] = GenNegFys( list_of_words, target_num, noun_set )
+	[negative_fys,negative_words] = GenNegFys( list_of_words )
 	features       = features + negative_fys
 	list_indx      = list_indx + len( negative_fys ) 
 	target_label   = target_label + [1]*len(positive_words) + [0]*len(negative_words)
-	training_words =  training_words + positive_words + negative_words
+	testing_words  =  testing_words + positive_words + negative_words
 		
+
+
 
 print target_label.count(1)
 print target_label.count(0)
 
-numpy.save('Data/Training/features.npy',features) 
-numpy.savetxt('Data/Training/features.txt',features)
+numpy.save('test_features.npy',features) 
+numpy.savetxt('test_features.txt',features)
 
-numpy.save('Data/Training/target_label.npy',target_label)
-numpy.savetxt('Data/Training/target_label.txt',target_label)
+numpy.save('test_target_label.npy',target_label)
+numpy.savetxt('test_target_label.txt',target_label)
 
-numpy.savetxt('Data/Training/training_words.txt',training_words,fmt='%s')
 
-numpy.savetxt('Data/Training/feature_names.txt',feature_names,fmt='%s')	 
+numpy.savetxt('testing_words.txt',testing_words,fmt='%s')
 
-numpy.save('Data/Training/training_words.npy',training_words)
+numpy.save('testing_words.npy',testing_words)
 
-numpy.save('Data/Training/feature_names.npy',feature_names)
