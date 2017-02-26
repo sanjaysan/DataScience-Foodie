@@ -19,4 +19,18 @@ preceded by another adjective ?
 
 blacklist rule-> If str contains numeric characters
 	def hasNumbers(inputString):
-...     return any(char.isdigit() for char in inputString)	
+...     return any(char.isdigit() for char in inputString)
+
+
+without noun feature
+82,2
+
+
+with noun feature
+79,65
+
+
+
+
+
+	

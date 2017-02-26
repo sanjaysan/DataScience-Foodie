@@ -1,5 +1,9 @@
 Length in chars
+Is preceded by another adj
+Is preceded by a/an 
+Is preceded by was/is
+Is preceded by are/were
+Is preceded by so
 Is preceded by super
-Is preceded by was/a/are/is/were/so
 Is preceded by very
 Is succeded by noun

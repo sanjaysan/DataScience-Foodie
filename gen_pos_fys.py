@@ -22,15 +22,18 @@ feature_names = []
 target_label = []
 
 feature_names.append("Length in chars")
+feature_names.append("Is preceded by another adj")
+feature_names.append("Is preceded by a/an ")
+feature_names.append("Is preceded by was/is")
+feature_names.append("Is preceded by are/were")
+feature_names.append("Is preceded by so")
 feature_names.append("Is preceded by super")
-feature_names.append("Is preceded by was/a/are/is/were/so")
 feature_names.append("Is preceded by very")
 feature_names.append("Is succeded by noun")
 
 
 list_indx = 0
 
-third_features = Set( ['was','a','an','are','is','so','were'] )
 
 directory = "/home/sabareesh/DataScience/DataScience-Foodie/Data/Dev_Set/"
 
@@ -81,6 +84,7 @@ for filename in os.listdir(directory):
 		if len(adj) >= 4:
 		
 			positive_words.append( adj )
+
 	
 			""" Length """
 		
@@ -119,42 +123,74 @@ for filename in os.listdir(directory):
 			suc_word = ""
 	
 	
-	        	""" Preceded by super """
 	
 	
 			if   prev_word_indx_2 >= 0 : 
 				
 				prev_word_2 = list_of_words[ prev_word_indx_2 ]
 	
-				if prev_word_2.lower() == "super":
-	
-					features[list_indx].append( int(1) )
-	
-				else:
-					features[list_indx].append( int(0) )
-	
-	
-			else:
-	
-				features[ list_indx ].append( int(0) )
-	
-			 
 			if   prev_word_indx >=0 :
 	
 				prev_word = list_of_words[ prev_word_indx]
+	        	
+		
+			""" Preceded by another adjective """
+
+
+			if prev_word_2 in adj_list:
 	
+				features[list_indx].append( int(1) )
 	
-			if  prev_word.lower() in third_features :
+			else:
+				features[list_indx].append( int(0) )
+	
+			 
+	
+			""" Preceded by was/a/.. """
+	
+			if  prev_word.lower()  == "a" or prev_word.lower() == "an" or prev_word_2.lower() == "a" or prev_word_2.lower() == "an" :
 				
 				features[list_indx].append(int(1))
 	
 			else: 
 				features[list_indx].append( int(0) )
+
+
+			if  prev_word.lower()  == "was" or prev_word.lower() == "is" or prev_word_2.lower() == "was" or prev_word_2.lower() == "is" :
+				
+				features[list_indx].append(int(1))
 	
+			else: 
+				features[list_indx].append( int(0) )
+
+
+			if  prev_word.lower()  == "are" or prev_word.lower() == "were" or prev_word_2.lower() == "are" or prev_word_2.lower() == "were" :
+				
+				features[list_indx].append(int(1))
+	
+			else: 
+				features[list_indx].append( int(0) )
+
+
+			if  prev_word.lower()  == "so" or  prev_word_2.lower() == "so":
+				
+				features[list_indx].append(int(1))
+	
+			else: 
+				features[list_indx].append( int(0) )
+
+
+			if  prev_word.lower()  == "super" or prev_word_2.lower() == "super" :
+				
+				features[list_indx].append(int(1))
+	
+			else: 
+				features[list_indx].append( int(0) )
+			
 	
 			""" Preceded by very """
 	
-			if prev_word.lower() == "very" :
+			if prev_word.lower() == "very" or prev_word_2.lower() == "very" :
 	
 				features[list_indx].append( int(1) )
 	
@@ -182,8 +218,8 @@ for filename in os.listdir(directory):
 	
 			
 				
-	target_num     = len(positive_words) + 8 
-	[negative_fys,negative_words] = GenNegFys( list_of_words, target_num, noun_set )
+	target_num     = len(positive_words) + 10 
+	[negative_fys,negative_words] = GenNegFys( list_of_words, target_num, noun_set, adj_list )
 	features       = features + negative_fys
 	list_indx      = list_indx + len( negative_fys ) 
 	target_label   = target_label + [1]*len(positive_words) + [0]*len(negative_words)
@@ -192,6 +228,7 @@ for filename in os.listdir(directory):
 
 print target_label.count(1)
 print target_label.count(0)
+
 
 numpy.save('Data/Training/features.npy',features) 
 numpy.savetxt('Data/Training/features.txt',features)
