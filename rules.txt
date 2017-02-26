@@ -9,6 +9,13 @@ preceded by "was" , "a" ," are" , "is"  ( a lovely word, both are excellent, ice
 preceded by "so"  ( so friendly )
 preceded by "super"
 preceded by "very"
+succeded by noun ?
+Has a - ? candy-sweet
+preceded by another adjective ?
+
+
+3842
+5566
 
 blacklist rule-> If str contains numeric characters
 	def hasNumbers(inputString):
