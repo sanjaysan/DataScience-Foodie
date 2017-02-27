@@ -15,3 +15,7 @@ print "Precision: ", np.mean(scores)
 # 5-fold cross validation to get precision
 scores = cross_val_score(clf, features, labels, cv=5, scoring='recall')
 print "Recall: ", np.mean(scores)
+
+# 5-fold cross validation to get precision
+scores = cross_val_score(clf, features, labels, cv=5, scoring='f1_macro')
+print "F1 Measure: ", np.mean(scores)
