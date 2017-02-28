@@ -1,15 +1,10 @@
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import KFold
-from sklearn import tree
-from sklearn.naive_bayes import GaussianNB
-from sklearn.feature_selection import chi2
-from sklearn.feature_selection import SelectKBest
 
-features 	  = np.load('Data/Training/features.npy')
-labels   	  = np.load('Data/Training/target_label.npy')
-training_words    = np.load('Data/Training/training_words.npy')
-
+features = np.load('Data/Training/features.npy')
+labels = np.load('Data/Training/target_label.npy')
+training_words = np.load('Data/Training/training_words.npy')
 
 """
 features = SelectKBest(chi2,k=6).fit_transform(features_load,labels)
@@ -18,38 +13,32 @@ features = SelectKBest(chi2,k=6).fit_transform(features_load,labels)
 kf = KFold(n_splits=10)
 kf.get_n_splits(features)
 
+for train_index, test_index in kf.split(features):
+    F_train, F_test = features[train_index], features[test_index]
+    L_train, L_test = labels[train_index], labels[test_index]
+    clf = svm.SVC()
+    clf.fit(F_train, L_train)
 
-for train_index,test_index in kf.split(features):
-	F_train,F_test = features[train_index],features[test_index]
-	L_train,L_test = labels[train_index],labels[test_index]
-	clf = svm.SVC()
-	clf.fit(F_train,L_train)
+    prediction_score = clf.decision_function(F_test)
+    min_threshold = 0.96
 
+    prediction_label = [1 if y_s > min_threshold else 0 for y_s in prediction_score]
 
-	prediction_score = clf.decision_function( F_test )
-	min_threshold = 0.96
-	
-	prediction_label = [1 if y_s > min_threshold else 0 for y_s in prediction_score]
+    num_pos_predictions = np.sum(prediction_label)
 
+    num_correct_pos_predictions = 0.0
 
-        num_pos_predictions = np.sum ( prediction_label )
+    for k in range(len(prediction_label)):
 
-	num_correct_pos_predictions = 0.0
+        if prediction_label[k] == 1 and prediction_label[k] == L_test[k]:
+            num_correct_pos_predictions += 1
 
-	for k in range( len(prediction_label) ):
+    precision = (num_correct_pos_predictions * 100 / num_pos_predictions)
 
-		if prediction_label[k] == 1 and prediction_label[k] == L_test[k] :
+    num_actual_positives = (L_test == 1).sum()
+    recall = (num_correct_pos_predictions * 100 / num_actual_positives)
 
-			num_correct_pos_predictions+=1
-
-	precision = (num_correct_pos_predictions*100/num_pos_predictions)
-
-	num_actual_positives = (L_test == 1).sum()
-	recall 	  = (num_correct_pos_predictions*100/num_actual_positives)
-
-	print precision,recall	
-
-
+    print precision, recall
 
 """
 
@@ -99,7 +88,6 @@ for k in range ( len(prediction_label) ):
 
 break 
 """
-
 
 """
 for train_index,test_index in kf.split(features):
@@ -151,7 +139,3 @@ for train_index,test_index in kf.split(features):
 
 
 """
-
-
-
-
