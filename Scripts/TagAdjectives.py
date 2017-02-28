@@ -1,6 +1,7 @@
 import fileinput
 import os
 import re
+
 import nltk
 
 directory = "/home/sanjay/Documents/UW Madison/Semester II/Data Science/DataScience-Foodie/Data/Test Set"
@@ -44,7 +45,6 @@ for filename in os.listdir(directory):
 
             if (tagged[i][0] not in tagged_adjectives) \
                     and (tagged[i][1] == 'JJ' or tagged[i][1] == 'JJR' or tagged[i][1] == 'JJS'):
-
                 # Surrounding the identified adjective with <adj>...</adj> tags
                 # original_text
                 text_to_replace = "<adj> " + tagged[i][0] + " </adj>"
