@@ -1,14 +1,12 @@
 import numpy as np
-from sklearn import svm, linear_model
+from sklearn import linear_model
 from sklearn.model_selection import KFold
-
 
 features = np.load('../Data/Training/features.npy')
 labels = np.load('../Data/Training/target_label.npy')
 training_words = np.load('../Data/Training/training_words.npy')
 kf = KFold(n_splits=10)
 kf.get_n_splits(features)
-
 
 precisionList = []
 recallList = []
@@ -44,8 +42,5 @@ for train_index, test_index in kf.split(features):
 print "Precision: ", np.mean(precisionList)
 print "Recall: ", np.mean(recallList)
 
-
-fValue = (2*np.mean(precisionList)*np.mean(recallList))/(np.mean(recallList)+np.mean(precisionList))
+fValue = (2 * np.mean(precisionList) * np.mean(recallList)) / (np.mean(recallList) + np.mean(precisionList))
 print "fValue: ", fValue
-
-
