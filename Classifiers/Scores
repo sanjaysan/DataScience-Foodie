@@ -2,3 +2,13 @@
 Precision:  0.865156400857
 Recall:  0.701526942458
 F1 Measure:  0.825314815698
+
+2) Decision Tree -
+Precision: 87.3658293494
+Recall: 69.8295987537
+F1 Measure: 77.6195705164
+
+3) Logistic Regression
+Precision:  88.2304095746
+Recall:  59.5201544459
+F1 Measure:  71.0858552659
