@@ -2,9 +2,11 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import KFold
 
+# Training features(x) and labels(y)
 x = np.load('Data/Training/features.npy')
 y = np.load('Data/Training/target_label.npy')
 
+# Setting up 10-fold cross validation
 kf = KFold(n_splits=10)
 kf.get_n_splits(x)
 
