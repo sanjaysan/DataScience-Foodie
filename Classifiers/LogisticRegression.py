@@ -41,12 +41,11 @@ for train_index, test_index in kf.split(features):
     precisionList.append(precision)
     recallList.append(recall)
 
-print "Average Precision: "
-print np.mean(precisionList)
-print "Average Recall: "
-print np.mean(recallList)
+print "Precision: ", np.mean(precisionList)
+print "Recall: ", np.mean(recallList)
+
 
 fValue = (2*np.mean(precisionList)*np.mean(recallList))/(np.mean(recallList)+np.mean(precisionList))
-print "fValue: "
-print fValue
+print "fValue: ", fValue
+
 
