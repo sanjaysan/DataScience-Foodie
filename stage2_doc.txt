@@ -1,3 +1,9 @@
-1618
-4145
-6502
+
+
+Examples -> <adj> yummy </adj> cocktails
+	    "neat" place just right of broadway theatres
+	     "whole" dining experience was great
+
+Test-Set adjective     1618
+Training-Set adjective 4145
+Training-Set negative  6502 
