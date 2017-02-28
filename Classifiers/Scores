@@ -2,3 +2,8 @@
 Precision:  0.865156400857
 Recall:  0.701526942458
 F1 Measure:  0.825314815698
+
+2) Linear Regression:
+Precision:  89.11944561
+Recall:  58.4840383473
+F1 Measure:  70.6225210247
