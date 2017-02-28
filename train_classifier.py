@@ -15,7 +15,6 @@ training_words    = np.load('Data/Training/training_words.npy')
 features = SelectKBest(chi2,k=6).fit_transform(features_load,labels)
 """
 
-
 kf = KFold(n_splits=10)
 kf.get_n_splits(features)
 
@@ -52,25 +51,8 @@ for train_index,test_index in kf.split(features):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """
+
 
 clf_test = svm.SVC()
 clf_test = clf_test.fit(features,labels)
@@ -82,7 +64,7 @@ test_words    = np.load('Data/Testing/testing_words.npy')
 
 
 prediction_score = clf_test.decision_function( test_features )
-min_threshold = 0.5
+min_threshold = 0.8
 	
 prediction_label = [1 if y_s > min_threshold else 0 for y_s in prediction_score]
 
@@ -103,9 +85,8 @@ recall 	  = (num_correct_pos_predictions*100/num_actual_positives)
 
 print precision,recall
 
-"""
+
 	
-"""
 outFile = open('false_negatives.txt','w+')
 
 for k in range ( len(prediction_label) ):
