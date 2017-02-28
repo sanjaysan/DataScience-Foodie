@@ -1,51 +1,58 @@
 import numpy as np
-from sklearn import svm, linear_model
+from sklearn import linear_model
 from sklearn.model_selection import KFold
 
+# Training features(x) and labels(y)
+x = np.load('../Data/Training/features.npy')
+y = np.load('../Data/Training/target_label.npy')
 
-features = np.load('../Data/Training/features.npy')
-labels = np.load('../Data/Training/target_label.npy')
-training_words = np.load('../Data/Training/training_words.npy')
+# Setting up 10-fold cross validation
 kf = KFold(n_splits=10)
-kf.get_n_splits(features)
+kf.get_n_splits(x)
 
-
-precisionList = []
-recallList = []
-for train_index, test_index in kf.split(features):
-    F_train, F_test = features[train_index], features[test_index]
-    L_train, L_test = labels[train_index], labels[test_index]
-
+precisionList, recallList = [], []
+for train, test in kf.split(x):
+    # Initializing the Logistic Regression Classifier
     clf = linear_model.LogisticRegression()
-    clf.fit(F_train, L_train)
 
-    prediction_score = clf.decision_function(F_test)
+    # Fitting the training data on the model
+    clf.fit(x[train], y[train])
+
+    # Running the decision function to find out the predicted score
+    prediction_score = clf.decision_function(x[test])
+
+    # Setting the minimum threshold
     min_threshold = 0.96
 
-    prediction_label = [1 if y_s > min_threshold else 0 for y_s in prediction_score]
+    # Selecting only those features for which the predicted value is above the minimum threshold
+    predicted_label = [1 if y_s > min_threshold else 0 for y_s in prediction_score]
 
-    num_pos_predictions = np.sum(prediction_label)
+    # Calculating out the number of positive predictions
+    num_pos_predictions = np.sum(predicted_label)
 
     num_correct_pos_predictions = 0.0
-
-    for k in range(len(prediction_label)):
-        if prediction_label[k] == 1 and prediction_label[k] == L_test[k]:
+    for i in range(len(predicted_label)):
+        # Comparing the predicted label with the test label to find out the number of correct
+        # positive predictions
+        if predicted_label[i] == 1 and predicted_label[i] == y[test][i]:
             num_correct_pos_predictions += 1
 
-    precision = (num_correct_pos_predictions * 100 / num_pos_predictions)
+    # Calculating out the number of actual positives
+    num_actual_positives = (y[test] == 1).sum()
 
-    num_actual_positives = (L_test == 1).sum()
+    # Calculating precision and recall for each fold
+    precision = (num_correct_pos_predictions * 100 / num_pos_predictions)
     recall = (num_correct_pos_predictions * 100 / num_actual_positives)
-    print precision, recall
 
     precisionList.append(precision)
     recallList.append(recall)
 
-print "Precision: ", np.mean(precisionList)
-print "Recall: ", np.mean(recallList)
+# Calculating the average precision and recall
+average_precision = np.mean(precisionList)
+average_recall = np.mean(recallList)
+print "Precision: ", average_precision
+print "Recall: ", average_recall
 
-
-fValue = (2*np.mean(precisionList)*np.mean(recallList))/(np.mean(recallList)+np.mean(precisionList))
-print "fValue: ", fValue
-
-
+# Calculating the F1 Measure as (2 PR)/ (P + R)
+f1 = (2 * average_precision * average_recall) / (average_precision + average_recall)
+print "F1 Measure: ", f1
