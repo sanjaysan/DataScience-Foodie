@@ -1,0 +1,48 @@
+
+1) Entity   ->  Adjectives describing the food and dining experience
+   Examples ->  <adj> yummy </adj> cocktails
+	        "neat" place just right of broadway theatres
+	        "whole" dining experience was great
+
+
+2) Total number of mentions- 4145 + 1618
+
+3) Set I: 220 documents, 4145 mentions, 6502 generated negative examples, Pruning-example words that are negative but have atleast one of the features present.
+
+   Features used: < Length in chars,Is preceded by was/is/an/are/so, Is preceded by another adjective , Is preceded by very >
+
+
+4) Set J: 100 documents, 1618 mentions.
+
+5) Cross validation
+
+Initial 10 fold cross validation with SVM -> < precision = 82%, recall = 3%> many false negatives. Inspected and found that features were not distinguishing enough.
+
+Added feature -> Is succeded by noun ( food/place-name etc) , nouns detected by using python natural language toolkit library.
+
+After this 10 fold cross validation with SVM -> < precision =84%,recall = 55%>. 
+
+
+Further the second feature was separated and made into separate vectors rather than having a single boolean variable.
+After this 10 fold CV with SVM: < P= 88%,recall=60%>
+
+Classifier comparison table with 10 fold CV is given below
+
+Classifier      |  Tuning-Technique |               P |     R |     F1
+SVM		  Threshold variation               90.34%  61.92%  73.4%
+Decision-Tree     max_depth variation,optimum=8
+Random-Forest
+Linear Regression
+Logisitic Regression
+
+
+
+6) Test set performance
+
+Precision
+Recall
+F1
+
+7) No postprocessing rules have been used
+
+8) Final classifier <X> applied on Test-Set has Precision=, Recall = , F1=
