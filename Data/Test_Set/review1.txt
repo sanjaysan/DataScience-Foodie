@@ -1,3 +1,3 @@
 the hype is <adj> true </adj>. the food is really <adj> good </adj>. probably the <adj> best </adj> thai food in austin.
 
-my <adj> only </adj> suggestion--the food boxes kind of <adj> dampen </adj> the experience, so <adj> please </adj> consider an alternative.
+my only suggestion--the food boxes kind of <adj> dampen </adj> the experience, so <adj> please </adj> consider an alternative.

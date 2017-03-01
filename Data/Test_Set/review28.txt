@@ -1,2 +1,2 @@
-<adj> great </adj> ambiance and service, <adj> average </adj> food and extremely overpriced. do <adj> i </adj> regret going?no. would <adj> i </adj> go back? no.
-the <adj> main </adj> course (<adj> steak </adj>) very salty and salad dressing (which is supposed to be <adj> signature </adj> dish) was very <adj> ordinary </adj>. the <adj> wine </adj> list was also very <adj> limited </adj> (mostly us <adj> wine </adj>, <adj> limited </adj> <adj> french </adj> or <adj> italian </adj> wines!)
+<adj> great </adj> ambiance and service, <adj> average </adj> food and extremely overpriced. do i regret going?no. would i go back? no.
+the <adj> main </adj> course (<adj> steak </adj>) very <adj> salty </adj> and salad dressing (which is supposed to be <adj> signature </adj> dish) was very <adj> ordinary </adj>. the wine list was also very <adj> limited </adj> (mostly us wine, <adj> limited </adj> <adj> french </adj> or <adj> italian </adj> wines!)

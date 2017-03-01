@@ -13,6 +13,8 @@ features = SelectKBest(chi2,k=6).fit_transform(features_load,labels)
 kf = KFold(n_splits=10)
 kf.get_n_splits(features)
 
+average_precision = 0
+average_recall = 0
 for train_index, test_index in kf.split(features):
     F_train, F_test = features[train_index], features[test_index]
     L_train, L_test = labels[train_index], labels[test_index]
@@ -38,7 +40,18 @@ for train_index, test_index in kf.split(features):
     num_actual_positives = (L_test == 1).sum()
     recall = (num_correct_pos_predictions * 100 / num_actual_positives)
 
-    print precision, recall
+    average_precision += precision
+    average_recall += recall
+
+average_precision /= 10
+average_recall /= 10
+
+# Calculating the F1 Measure as (2 PR)/ (P + R)
+f1 = (2 * average_precision * average_recall) / (average_precision + average_recall)
+
+print "Precision: ", average_precision
+print "Recall: ", average_recall
+print "F1 Measure: ", f1
 
 """
 

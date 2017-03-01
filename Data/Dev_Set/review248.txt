@@ -9,7 +9,7 @@ drinks: 5
 we ordered four <adj> different </adj> cocktails, and all of them turned out to be <adj> excellent </adj>. i specially recommend the mood indigo if you like <adj> fruity </adj> & <adj> citrus-y </adj> drinks, and the <adj> wooden </adj> nail if you enjoy scotch & bitters based drinks. very well made and <adj> sophisticated </adj>.
 
 tapas: 3.5
-we didn't order too <adj> much </adj>, so don't take this as a place not to eat at, but what we ordered wasn't that <adj> great </adj>. we tried the papas bravas, which turned out to be steamed potatoes with some salsa and <adj> garlic </adj> aioli. the potatoes were a <adj> little </adj> <adj> raw </adj>, and not completely cooked. even the marcona almonds were bland and not well salted or seasoned.
+we didn't order too much, so don't take this as a place not to eat at, but what we ordered wasn't that <adj> great </adj>. we tried the papas bravas, which turned out to be steamed potatoes with some salsa and <adj> garlic </adj> aioli. the potatoes were a <adj> little </adj> <adj> raw </adj>, and not completely cooked. even the marcona almonds were bland and not well salted or seasoned.
 
 service: 4
 service is very <adj> friendly </adj> and <adj> professional </adj>. however, i felt that <adj> multiple </adj> servers kept checking up on us too often and unnecessarily.

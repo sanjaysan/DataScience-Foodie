@@ -13,7 +13,8 @@ kf.get_n_splits(x)
 precisionList, recallList = [], []
 for train, test in kf.split(x):
     # Initializing the Logistic Regression Classifier
-    clf = linear_model.LogisticRegression()
+    clf = linear_model.LogisticRegression(class_weight = {0:1, 1:1})
+    print clf.get_params(True)
 
     # Fitting the training data on the model
     clf.fit(x[train], y[train])
