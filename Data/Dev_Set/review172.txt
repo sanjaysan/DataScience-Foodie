@@ -21,7 +21,7 @@ blackened octopus
 another <adj> great </adj> dish. the pork fried rice was amazing. the octopus was well flavored and nicely tender.
 
 fried chicken
-like candy, with its skin coated with <adj> smoked </adj> <adj> fish </adj> caramel. the pickles were a <adj> nice </adj> touch.
+like candy, with its skin coated with <adj> smoked </adj> fish caramel. the pickles were a <adj> nice </adj> touch.
 
 duck
 this was the one dish that i expected just a bit more from. definitely a <adj> great </adj> piece of duck, but could have been a bit <adj> softer </adj>. beet and strawberry were <adj> great </adj> additions though.
