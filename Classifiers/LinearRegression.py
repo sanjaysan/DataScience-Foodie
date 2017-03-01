@@ -17,7 +17,7 @@ for train, test in kf.split(x):
     clf.fit(x[train], y[train])
 
     # Selecting only those features for which the predicted value is above the threshold 0.705
-    predicted_label = [1 if predicted_val > 0.705 else 0 for predicted_val in clf.predict(x[test])]
+    predicted_label = [1 if predicted_val > 0.703 else 0 for predicted_val in clf.predict(x[test])]
     num_correct_pos_predictions = 0.0
 
     # Calculating out the number of positive predictions
