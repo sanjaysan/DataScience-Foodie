@@ -3,8 +3,8 @@ from sklearn import svm
 from sklearn.model_selection import KFold
 
 # Training features(x) and labels(y)
-x = np.load('Data/Training/features.npy')
-y = np.load('Data/Training/target_label.npy')
+x = np.load('../Data/Training/features.npy')
+y = np.load('../Data/Training/target_label.npy')
 
 # Setting up 10-fold cross validation
 kf = KFold(n_splits=10)
@@ -50,7 +50,7 @@ for train, test in kf.split(x):
     average_recall += recall
 
 # Calculating the average precision and recall
-average_recall /= 10
+average_precision /= 10
 average_recall /= 10
 
 # Calculating the F1 Measure as (2 PR)/ (P + R)
