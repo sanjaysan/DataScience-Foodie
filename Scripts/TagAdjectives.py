@@ -4,7 +4,7 @@ import re
 
 import nltk
 
-directory = "/home/sanjay/Documents/UW Madison/Semester II/Data Science/DataScience-Foodie/Data/Test Set"
+directory = "../Data/Test Set"
 fileCount = 0
 for filename in os.listdir(directory):
     f = fileinput.input(os.path.join(directory, filename), inplace=True)
