@@ -662,7 +662,7 @@ number_of_reviews,price_range,ratingValue,name,address
 26,$11-30,4.5,Ada’s Restaurant & Bar,5910 Phinney Ave N Seattle WA 98103
 421,$11-30,4.0,Aster’s Ethiopian Restaurant,2804 N I-35 Austin TX 78722
 316,$31-60,4.0,Andiamo Ristorante,2521 Rutland Dr Austin TX 78758
-691,Under $10,4.0,Kau Kau Barbeque,656 S King St Seattle WA 98104
+691,Under $10,4.0,Kau Kau Barbeque Market,656 S King St Seattle WA 98104
 21,$31-60,4.0,Cafe Blue,340 East 2nd St Austin TX 78701
 15,$11-30,5.0,6th Avenue Eats,230 6th Ave N Seattle WA 98109
 180,$11-30,4.0,Pair,5501 30th Ave NE Seattle WA 98105
@@ -1078,7 +1078,7 @@ number_of_reviews,price_range,ratingValue,name,address
 273,Under $10,4.5,International Food Bazaar,2052 Curtner Ave San Jose CA 95124
 378,$31-60,4.0,Convivium Osteria,68 5th Ave Brooklyn NY 11217
 98,$11-30,4.0,Orchestria Palm Court,27 E William St San Jose CA 95112
-1249,$31-60,3.5,LB Steak Santana Row,334 Santana Row San Jose CA 95128
+1249,$31-60,3.5,LB Steak,334 Santana Row San Jose CA 95128
 1039,$11-30,4.5,Il Bambino,34-08 31st Ave Astoria NY 11106
 10,$11-30,5.0,99 Bank,99 Bank St New York NY 10014
 229,$11-30,4.0,Smith and Mills,71 N Moore St New York NY 10013
@@ -1190,7 +1190,7 @@ number_of_reviews,price_range,ratingValue,name,address
 13,$11-30,4.0,Bazille,3111 Palm Way Austin TX 78758
 237,$31-60,3.5,Siena Ristorante Toscana,6203 N Capital Of Texas Hwy Austin TX 78731
 166,$11-30,4.0,Voila! Bistrot,2805 E Madison St Seattle WA 98112
-324,$11-30,3.5,JOEY Kitchen At University Village,2603 NE 46th St Seattle WA 98105
+324,$11-30,3.5,JOEY Kitchen,University Village 2603 NE 46th St Seattle WA 98105
 363,$11-30,4.0,Smarty Pants,6017 Airport Way S Seattle WA 98108
 114,$11-30,4.0,Harry’s Chicken Joint,6032 California Ave SW Seattle WA 98136
 299,$11-30,4.0,Market Grill,1509 Pike Pl Seattle WA 98101
@@ -1707,7 +1707,7 @@ number_of_reviews,price_range,ratingValue,name,address
 178,Under $10,4.5,Tiko Riko,10410 Greenwood Ave N Seattle WA 98133
 667,Under $10,3.0,Pho 90 Degree,999 Story Rd San Jose CA 95122
 301,$11-30,4.5,Kabul Afghan Cuisine,2301 N 45th St Seattle WA 98103
-1507,$31-60,3.0,The Crab Pot,1301 Alaskan Way Seattle WA 98101
+1507,$31-60,3.0,Crab Pot,1301 Alaskan Way Seattle WA 98101
 1255,Above $61,4.0,Metropolitan Grill,820 2nd Ave Seattle WA 98104
 88,$11-30,4.0,Queen Margherita Pizza,3111 W McGraw St Seattle WA 98199
 67,$11-30,4.0,Urban Sushi Kitchen,600 Stewart St Seattle WA 98101
@@ -2206,7 +2206,7 @@ number_of_reviews,price_range,ratingValue,name,address
 15,Under $10,4.0,Santa Fe Taqueria,2687 Story Rd San Jose CA 95122
 440,$11-30,3.5,Jasmine Thai,1710 Berryessa Rd San Jose CA 95133
 216,$11-30,3.5,The Blue Chip,325 S 1st St San Jose CA 95113
-3039,$11-30,3.5,The Counter Santana Row,3055 Olin Ave San Jose CA 95128
+3039,$11-30,3.5,The Counter,Santana Row 3055 Olin Ave San Jose CA 95128
 1740,$11-30,3.5,Kenzo Japanese Restaurant,5465 Snell Ave San Jose CA 95123
 300,$31-60,3.5,Spencer’s For Steaks and Chops,2050 Gateway Pl San Jose CA 95110
 136,Under $10,3.5,Mahalo Hawaii BBQ & Chinese Food,4750 Almaden Expy San Jose CA 95118
