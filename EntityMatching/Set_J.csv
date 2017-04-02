@@ -1,0 +1,107 @@
+,_id,ltable_ID,rtable_ID,ltable_name,ltable_address,ltable_ratingValue,ltable_price_range,ltable_number_of_reviews,rtable_name,rtable_address,rtable_ratingValue,rtable_price_range,rtable_number_of_reviews,gold_labels
+835,835,1222,175,mighty bowl,120 Macdougal St New York NY 10012,4.5,$5,103,pommes frites,128 Macdougal St New York NY 10012,4.8,$35,85,0
+1029,1029,1546,2068,com ga nam an,348 E Santa Clara St San Jose CA 95113,4.0,$5,336,nick's,354 E Santa Clara St San Jose CA 95113,2.9,$13,1,0
+1802,1802,2845,915,cedar door,201 Brazos St Austin TX 78701,3.5,$20,329,cedar door bar and grill,201 Brazos St Austin TX 78701,3.5,$40,24,1
+1578,1578,2528,232,el borracho,Pike Place Market Seattle WA 98101,4.0,$20,406,matt's in the market,Pike Place Market 94 Pike St Seattle WA 98101,4.0,$55,77,0
+1448,1448,2296,2071,bjâs restaurant & brewhouse,511 Coleman Ave San Jose CA 95110,2.5,$20,628,bj's,511 Coleman Avenue San Jose CA 95110,3.1,$13,1,1
+971,971,1444,3041,angelouâs mexican grill,21 N 2nd St San Jose CA 95113,4.0,$5,530,el agave mexican grill,17 S 4th St San Jose CA 95113,-,$30,1,0
+1322,1322,2094,1296,bamboo garden vegetarian cuisine,364 Roy St Seattle WA 98109,3.5,$20,410,bamboo garden,364 Roy St Seattle 98109,3.7,$40,19,1
+1357,1357,2155,1393,an nam pho,6510 Roosevelt Way NE Seattle WA 98115,4.5,$5,104,bengal tiger,6509 Roosevelt Way NE Seattle WA 98115,3.9,$50,22,0
+644,644,924,2180,javelina,69 Rainey St Austin TX 78701,3.5,$20,209,via 313,61 Rainey St Austin TX 78701,3.6,$30,8,0
+487,487,727,1227,jackâs wife freda,224 Lafayette St New York NY 10012,4.0,$20,1079,jack's wife freda,224 Lafayette St New York NY 10012,4.0,$60,28,1
+249,249,377,1850,trace,200 Lavaca St Austin TX 78701,4.0,$45,324,trace,200 Lavaca St Austin TX 78701,3.3,$90,11,1
+829,829,1211,647,xiâan famous foods,67 Bayard St New York NY 10013,4.0,$5,683,chinatown ice cream factory,65 Bayard St New York NY 10013,4.4,$20,36,0
+198,198,303,1582,sweet chick,178 Ludlow St New York NY 10002,4.0,$20,789,il laboratorio del gelato,188 Ludlow St New York NY 10002,4.0,$25,30,0
+1959,1959,3113,1901,pho thaison,2438 W Anderson Ln Austin TX 78757,4.0,$5,499,pho thaison,2438 W Anderson Lane Suite A-3 Austin TX 78757,3.5,$30,12,1
+512,512,753,1163,hotpot first shabu,171 Jackson St San Jose CA 95112,4.0,$20,124,shaburi,171 Jackson St San Jose CA 95112,3.7,$15,2,0
+300,300,449,1790,reserve a table,611 E Pine St Seattle WA 98122,4.5,$20,345,stumptown coffee roasters,616 E Pine St Seattle WA 98122,3.6,$25,14,0
+648,648,935,2060,caffe frascati,315 S 1st St San Jose CA 95113,4.0,$5,421,caffe frascati,315 S First St San Jose CA 95113,3.1,$40,1,1
+23,23,60,614,crow,823 5th Ave N Seattle WA 98109,4.0,$20,452,crow,823 5th Avenue North Seattle WA 98109,4.0,$50,37,1
+60,60,108,1276,odenyaki bistro,71 Curtner Ave San Jose CA 95125,4.0,$20,120,siena bistro,1359 Lincoln Avenue San Jose CA 95125,3.5,$90,1,0
+1398,1398,2211,2662,cucina americana,9400 Roosevelt Way NE Seattle WA 98115,4.5,$20,25,salvatore ristorante italiano,6100 Roosevelt Way NE Seattle WA 98115,3.9,$60,11,0
+1920,1920,3067,1652,winflo osteria,1315 W 6th St Austin TX 78703,3.5,$20,327,winflo,1315 W 6th St Austin TX 78703,3.3,$85,8,1
+1275,1275,2027,713,cafe lago,2305 24th Ave E Seattle WA 98112,3.5,$20,169,cafe lago,2305 24th Avenue East WA 98112,3.6,$15,27,1
+237,237,366,548,raku,342 E 6th St New York NY 10003,4.5,$20,350,veniero's pasticceria & caffe,342 E 11th St New York NY 10003,4.3,$20,33,0
+1117,1117,1724,976,pho to thi #1,5499 Snell Ave San Jose CA 95123,4.0,$5,31,pho my,5499 Snell Avenue San Jose CA 95123,3.7,$15,1,1
+1980,1980,3140,1204,chef li,2033 Camden Ave San Jose CA 95124,3.0,$20,210,chef li chinese,2033 Camden Avenue San Jose CA 95124,3.6,$13,3,1
+845,845,1234,3067,hillside farmacy,1209 E 11th St Austin TX 78702,3.5,$20,594,the hightower,1209 E 7th St Austin TX 78702,3.1,$55,7,0
+801,801,1176,104,reserve a table,378 Santana Row San Jose CA 95128,3.0,$20,1183,village california,378 Santana Row San Jose CA 95128,3.9,$35,11,0
+746,746,1079,14,lb steak,334 Santana Row San Jose CA 95128,3.5,$45,1249,pizza antica,334 Santana Row San Jose CA 95128,4.2,$45,11,0
+1154,1154,1804,1200,isabellaâs ,700 S Winchester Blvd San Jose CA 95128,3.5,$20,740,isabella's ,700 South Winchester Blvd San Jose CA 95128,3.1,$13,3,1
+133,133,204,2041,la catalana,3720 N 1st St San Jose CA 95134,4.0,$20,369,la catalana,3720 N 1st St Suite A San Jose CA 95134,3.3,$90,1,1
+1626,1626,2615,3159,elizabeth street cafe,1501 S 1st St Austin TX 78704,3.5,$20,953,dock & roll diner,1503 S 1st St Austin TX 78704,3.3,$35,9,0
+828,828,1209,1328,hudson,5000 E Marginal Way S Seattle WA 98134,4.0,$20,328,hudson,5000 East Marginal Way S Seattle WA 98134,3.9,$75,27,1
+402,402,590,1276,reserve a table,1359 Lincoln Ave San Jose CA 95125,4.0,$20,369,siena bistro,1359 Lincoln Avenue San Jose CA 95125,3.5,$90,1,0
+546,546,798,1045,left bank - san jose,377 Santana Row San Jose CA 95128,3.0,$20,1540,fantasia,378 Santana Row San Jose CA 95128,3.4,$15,1,0
+34,34,85,70,toulouse petit,601 Queen Anne Ave N Seattle WA 98109,4.0,$20,2797,toulouse petit,601 Queen Anne Avenue N Queen Anne: Lower Seattle WA 98109,4.7,$80,214,1
+855,855,1249,1058,banana crÃªpe,248 Jackson St San Jose CA 95112,4.0,$5,816,banana crepe,248 Jackson St San Jose CA 95112,3.4,$35,3,1
+1234,1234,1960,2353,the hamilton,998 Amsterdam Avenue New York NY 10025,4.5,$20,70,awash,947 Amsterdam Avenue New York NY 10025,4.2,$60,14,0
+191,191,296,1056,hokkaido ramen santouka,675 Saratoga Ave San Jose CA 95129,4.0,$20,2482,mitsuwa marketplace,675 Saratoga Ave San Jose CA 95129,3.6,$65,1,0
+1140,1140,1774,138,lua brazil,2600 E Cesar Chavez St Austin TX 78702,5.0,,7,juan in a million,2300 E Cesar Chavez St Austin TX 78702,4.0,$25,66,0
+1941,1941,3088,2172,senor jalapeno taqueria,1759 Technology Dr San Jose CA 95110,3.5,$5,69,senor jalapeno,1759 Technology Drive San Jose CA 95110,2.9,$25,1,1
+20,20,55,668,the zig zag cafÃ©,1501 Western Ave Seattle WA 98101,4.5,$20,762,zig zag cafe,1501 Western Avenue Seattle WA 98101,3.9,$50,23,1
+1046,1046,1592,1636,julioâs cafÃ©,4230 Duval St Austin TX 78751,4.0,$5,309,julio's cafe,4230 Duval St Austin TX 78751,3.7,$40,15,1
+1915,1915,3063,1967,flores mexican ,8300 N FM 620 Austin TX 78726,3.5,$20,160,flores mexican ,8300 FM 620 N Austin TX 78726,3.3,$50,14,0
+1211,1211,1899,2545,americana,219 Broadway E Seattle WA 98102,4.0,$20,719,mirch masala,213 Broadway E Seattle WA 98102,3.5,$40,16,0
+1930,1930,3080,1037,nobu,105 Hudson St New York NY 10013,4.0,$91,1295,ninja new york,25 Hudson St New York NY 10013,3.7,$90,29,0
+2026,2026,3223,1898,halal time,1501 E 6th St Austin TX 78702,5.0,$5,42,salt and time,1912 E 7th St Austin TX 78702,3.3,$50,10,0
+1534,1534,2445,3067,way south philly,1209 E 6th St Austin TX 78702,4.5,$5,241,the hightower,1209 E 7th St Austin TX 78702,3.1,$55,7,0
+1644,1644,2642,2568,ikeâs love & sandwiches,75 E Santa Clara St San Jose CA 95113,4.0,$20,513,bakery mexico,87 E Santa Clara St San Jose CA 95113,3.1,$20,1,0
+1063,1063,1645,2776,el taquito,1713 E Riverside Dr Austin TX 78741,4.0,$5,270,el jacalito,2030 E Oltorf St Austin TX 78741,3.2,$30,5,1
+639,639,911,1391,pike place chowder,600 Pine St Seattle WA 98101,4.0,$20,543,pike place chowder,Pacific Place Level 4 600 Pine St Seattle WA 98101,3.6,$25,28,1
+1842,1842,2936,2923,michi ramen,3005 S Lamar Blvd Austin TX 78704,3.5,$20,115,rockin tomato,3003 S Lamar Blvd Austin TX 78704,3.7,$35,6,0
+44,44,95,2025,the city fish,30 E Santa Clara St San Jose CA 95113,4.5,$5,581,muchos,72 E Santa Clara St San Jose CA 95113,3.3,$25,3,0
+1190,1190,1867,2985,north by northwest restaurant & brewery - slaughter,5701 W Slaughter Ln Austin TX 78749,3.5,$20,189,400 rabbits bar,5701 W Slaughter Lane Austin TX 78749,3.5,$15,2,0
+1639,1639,2637,3075,el sunzal ,642 Calles St Austin TX 78702,4.0,$5,76,el sunzal,642 Calles St Austin TX 78702,3.2,$35,10,1
+1859,1859,2968,716,mai thaiku,6705 Greenwood Ave N Seattle WA 98103,4.0,$20,173,thaiku,6705 Greenwood Avenue North Greenwood Seattle WA 98103,3.8,$35,15,1
+110,110,179,457,salty sow,1917 Manor Rd Austin TX 78722,4.5,$20,1569,salty sow,1917 Manor Road Austin TX 78722,3.8,$90,25,1
+1068,1068,1652,1227,bocaphÃª,222 Lafayette St New York NY 10012,4.0,$20,266,jack's wife freda,224 Lafayette St New York NY 10012,4.0,$60,28,0
+733,733,1059,1839,clarkâs oyster bar,1200 W 6th St Austin TX 78703,4.0,$45,349,cafe josie,1200 W 6th St Austin TX 78703,3.5,$100,10,0
+1224,1224,1934,1077,san francisco bakery & cafÃ©,2900 W Anderson Ln Austin TX 78757,4.0,$5,271,san francisco bakery and cafe,2900 W Anderson Lane Suite L Austin TX 78757,3.7,$25,12,1
+447,447,662,907,andiamo ristorante,2521 Rutland Dr Austin TX 78758,4.0,$45,316,andiamo ristorante,2521 Rutland Drive Austin TX 78758,3.7,$120,18,1
+1336,1336,2115,1524,the little london plane,322 Occidental Ave S Seattle WA 98104,4.0,$20,17,the london plane,300 Occidental Avenue South Seattle WA 98104,3.5,$35,16,0
+656,656,943,2989,turf n surf poâ boy,407 Lavaca St Austin TX 78701,4.5,$20,837,lavaca street bar,405 Lavaca St Austin TX 78701,3.1,$60,7,0
+1153,1153,1802,1239,nougatine at jean-georges,1 Central Park W New York NY 10023,4.0,$45,916,nougatine,1 Central Park West New York NY 10023,3.7,$150,33,1
+1613,1613,2600,973,sushi kan,1305 N 1st St San Jose CA 95112,3.5,$20,81,sushi zen,1305 North First St San Jose CA 95112,3.4,$43,2,1
+832,832,1220,264,julieâs garden,81 Yesler Way Seattle WA 98104,4.0,$5,149,jade garden,424 7th Avenue South International District Seattle WA 98104,4.1,$35,73,0
+166,166,268,1632,gusâs world famous fried chicken,117 San Jacinto Blvd Austin TX 78701,4.0,$5,984,the backspace,507 San Jacinto Blvd Austin TX 78701,3.6,$75,15,0
+818,818,1191,2861,joey kitchen,University Village 2603 NE 46th St Seattle WA 98105,3.5,$20,324,joey,University Village 2603 NE 46th St Seattle WA 98105,3.2,$40,5,1
+212,212,316,701,quinnâs,1001 E Pike St Seattle WA 98122,4.0,$20,1176,poquitos,1000 E Pike St Seattle WA 98122,3.6,$50,36,0
+881,881,1283,2571,bray butcher block and bistro,100 N Almaden Rd San Jose CA 95110,4.0,$20,253,bray butcher block and bistro,San Pedro Square Market 100 N Almaden Avenue Suite 182 San Jose CA 95110,-,$35,1,1
+1928,1928,3080,168,nobu,105 Hudson St New York NY 10013,4.0,$91,1295,nobu,105 Hudson St New York NY 10013,4.3,$250,70,1
+751,751,1084,367,mudai ethiopian ,503 W San Carlos St San Jose CA 95126,4.0,$20,294,gojo ethiopian,1261 W San Carlos St San Jose CA 95126,3.5,$80,7,0
+1360,1360,2158,112,house of genji,1335 N 1st St San Jose CA 95112,3.5,$20,569,house of genji,1335 North First St San Jose CA 95112,3.7,$25,6,1
+1718,1718,2721,841,chenâs noodle house,8650 Spicewood Springs Rd Austin TX 78759,4.0,$5,368,asia cafe,8650 Spicewood Springs Road Austin TX 78759,4.1,$35,25,0
+423,423,624,111,golden garlic,1530 S De Anza Blvd San Jose CA 95129,4.0,$20,88,layang layang,1480 S De Anza Blvd San Jose CA 95129,4.5,$40,5,0
+1194,1194,1873,138,juan in a million,2300 E Cesar Chavez St Austin TX 78702,4.0,$5,1180,juan in a million,2300 E Cesar Chavez St Austin TX 78702,4.0,$25,66,1
+1987,1987,3160,2962,schooner exact brewing company,3901 1st Ave S Seattle WA 98134,4.5,$20,186,schooner exact brewery and ,3901 1st Avenue South WA 98134,3.4,$75,4,1
+192,192,296,2242,hokkaido ramen santouka,675 Saratoga Ave San Jose CA 95129,4.0,$20,2482,j sweet,675 Saratoga Avenue San Jose CA 95129,2.9,$13,1,0
+296,296,442,854,jeffreyâs,1204 W Lynn St Austin TX 78703,4.0,$91,172,jeffrey's,1204 West Lynn St Austin TX 78703,3.6,$200,20,1
+381,381,556,578,souvlakiâs greek skewers,577 W Alma Ave San Jose CA 95125,4.5,$5,658,souvlaki greek skewers,577 W Alma Avenue San Jose CA 95125,3.9,$25,3,1
+465,465,691,1784,kauai family ,6324 6th Ave S Seattle WA 98108,4.0,$5,345,kauai family ,6324 6th Avenue South Seattle WA 98108,3.9,$25,16,1
+1035,1035,1559,3169,mi tradicion,801 E William Cannon Dr Austin TX 78745,4.5,$5,66,tucci's southside subs,801 E William Cannon Drive Austin TX 78745,3.1,$25,5,0
+2008,2008,3188,2439,pho an,12526 Lake City Way NE Seattle WA 98125,4.5,$5,287,elliott bay brewery & pub,12537 Lake City Way NE Seattle WA 98125,3.6,$30,14,0
+1441,1441,2280,2421,thai-u-up,7501 Roosevelt Way NE Seattle WA 98115,4.5,$5,33,cloud city coffee,8801 Roosevelt Way NE Seattle WA 98115,3.8,$25,10,0
+958,958,1421,1304,pig and khao,68 Clinton St New York NY 10002,4.0,$20,928,clinton street baking company,4 Clinton St New York NY 10002,4.3,$70,83,0
+1350,1350,2136,1237,gardenia,64 Downing St New York NY 10014,4.0,$20,122,blue ribbon bakery,34 Downing St New York NY 10014,4.0,$60,14,0
+1615,1615,2605,1049,juicy burger,630 Blossom Hill Rd San Jose CA 95123,4.0,$5,180,juicy burger,630 Blossom Hill Road  San Jose CA 95123,3.4,$25,3,1
+918,918,1371,2025,punjab cafe,322 E Santa Clara St San Jose CA 95113,4.0,$5,655,muchos,72 E Santa Clara St San Jose CA 95113,3.3,$25,3,0
+265,265,400,2442,green leaf vietnamese ,2800 1st Ave Seattle WA 98121,4.0,$20,405,green leaf vietnamese,2800 1st Avenue WA 98121,3.5,$30,12,1
+156,156,245,2377,fishâs wild,4180 N 1st St San Jose CA 95134,3.5,$20,11,rok steakhouse,4130 N 1st St San Jose CA 95134,2.6,$30,1,0
+1113,1113,1712,558,skycity at the needle,400 Broad St Seattle WA 98109,3.5,$45,1328,skycity ,400 Broad St Seattle WA 98109,3.5,$130,59,1
+632,632,900,2578,great wall chinese ,1409 Bird Ave San Jose CA 95125,4.0,$20,160,great wall chinese,1409 Bird Avenue San Jose CA 95125,3.4,$80,1,1
+37,37,91,757,reserve a table,15005 Mount Hamilton Rd San Jose CA 95140,4.0,$45,390,grandview,15005 Mount Hamilton Road San Jose CA 95140,3.4,$65,1,0
+1038,1038,1568,2449,taylor shellfish farms,1521 Melrose Ave Seattle WA 98122,4.0,$20,664,taylor shellfish,Melrose Market 1521 Melrose Avenue Seattle WA 98122,3.3,$65,18,1
+217,217,329,821,koriente,621 E 7th St Austin TX 78701,4.5,$5,1102,koriente,621 E 7th St Austin TX 78701,3.8,$35,21,1
+134,134,204,2370,la catalana,3720 N 1st St San Jose CA 95134,4.0,$20,369,the castle,3730 N 1st St San Jose CA 95134,3.0,$30,1,0
+1888,1888,3007,661,reserve a table,325 W 51st St New York NY 10019,4.0,$45,186,ippudo westside,321 W 51st St New York NY 10019,4.3,$70,36,0
+1952,1952,3105,875,greenlake bar & grill,7200 E Green Lake Dr N Seattle WA 98115,3.5,$20,446,greenlake bar & grill,7200 East Green Lake Drive North Seattle WA 98115,3.5,$40,16,1
+924,924,1376,2593,ocho,2325 NW Market St Seattle WA 98107,4.0,$20,507,brimmer & heeltap,425 NW Market St Seattle WA 98107,3.3,$55,13,0
+1331,1331,2108,1657,maâs ,1715 Lundy Ave San Jose CA 95131,3.5,$20,497,thai recipe,1715 Lundy Avenue San Jose CA 95131,3.3,$13,1,0
+89,89,154,60,paseo caribbean food - fremont,4225 Fremont Ave N Seattle WA 98103,4.5,$5,4285,paseo,4225 Fremont Avenue N Seattle WA 98103,4.9,$25,181,1
+1462,1462,2322,540,sripraphai thai ,64-13 39th Ave Woodside NY 11377,4.0,$20,1892,sripraphai,6413 39th Avenue Queens NY 11377,4.5,$45,44,1
+376,376,552,1667,boiling point,1698 Hostetter Rd San Jose CA 95131,3.0,$20,96,do re mi,1698 Hostetter Road San Jose CA 95131,3.5,$30,1,0
+1654,1654,2656,2769,mikado ryotei,9033 Research Blvd Austin TX 78758,4.0,$20,343,sherlock's baker st. pub & grill,9012 Research Blvd Austin TX 78758,3.1,$40,4,0
+158,158,256,69,salumi artisan cured meats,309 3rd Ave S Seattle WA 98104,4.5,$20,1181,salumi,309 3rd Avenue S Seattle WA 98104,4.5,$40,88,1
+555,555,806,1044,tomato thyme-willow glen,1560 Hamilton Ave San Jose CA 95125,3.5,$20,492,tomato thyme,1560 Hamilton Avenue San Jose CA 95125,3.8,$40,3,1
+1769,1769,2810,1096,thai kitchen,3009 Guadalupe St Austin TX 78705,3.5,$5,428,thai kitchen,3009 Guadalupe St Austin TX 78705,3.7,$30,18,1
