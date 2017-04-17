@@ -98,7 +98,7 @@ for index, row in Cpred.iterrows():
                 else:
                     # If both tables have null values for rating, then choose either
                     match.iloc[match_table_id]['ratingValue'] = C.iloc[id]['ltable_ratingValue']
-        match_table_id += 1
+            match_table_id += 1
 
 # Filtering out only the tuples which have non-null values for the "name" attribute
 match = match[pd.notnull(match['name'])]
