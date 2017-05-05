@@ -1,27 +1,29 @@
-from sqlalchemy import create_engine
 from cubes.tutorial.sql import create_table_from_csv
+from sqlalchemy import create_engine
+import sys
 
+# Setting encoding to UTF-8
+reload(sys)
+sys.setdefaultencoding('utf8')
 
-# 1. Prepare SQL data in memory
-
+# FACT table name
 FACT_TABLE = "restaurant_details"
-
 print("preparing data...")
-
 engine = create_engine('sqlite:///restaurant.sqlite')
 
+# Creating fact table from restaurant_details.csv
 create_table_from_csv(engine,
-                      ".csv",
+                      "./restaurant_details.csv",
                       table_name=FACT_TABLE,
                       fields=[
-                            ("category", "string"),
-                            ("category_label", "string"),
-                            ("subcategory", "string"),
-                            ("subcategory_label", "string"),
-                            ("line_item", "string"),
-                            ("year", "integer"),
-                            ("amount", "integer")],
+                          ("number_of_reviews", "integer"),
+                          ("price_range", "float"),
+                          ("ratingValue", "float"),
+                          ("name", "string"),
+                          ("street_city", "string"),
+                          ("state", "string"),
+                          ("zipcode", "integer")],
                       create_id=True
-                  )
+                      )
 
-print("done. file data.sqlite created")
+print("restaurant.sqlite created")
