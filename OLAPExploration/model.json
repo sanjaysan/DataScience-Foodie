@@ -1,0 +1,83 @@
+{
+    "dimensions": [
+        {
+         "name":"location",
+         "levels": [
+                {
+                    "name":"street_city",
+                    "label":"Street",
+                    "attributes": ["street_city", "street_city_label"]
+                },
+                {
+                    "name":"state",
+                    "label":"State",
+                    "attributes": ["state", "state_label"]
+                },
+                {
+                    "name":"zipcode",
+                    "label":"Zipcode",
+                    "attributes": ["zipcode", "zipcode_label"]
+                }
+            ]
+        },
+        {
+         "name":"evaluation",
+         "levels": [
+                {
+                    "name":"number_of_reviews",
+                    "label":"Number_of_reviews",
+                    "attributes": ["number_of_reviews", "number_of_reviews_label"]
+                },
+                {
+                    "name":"price_range",
+                    "label":"Price",
+                    "attributes": ["price_range", "price_range_label"]
+                },
+                {
+                    "name":"ratingValue",
+                    "label":"Rating_Value",
+                    "attributes": ["ratingValue", "ratingValue_label"]
+                }
+            ]
+        },
+        {
+          "name":"name",
+          "label":"Restaurant",
+          "attributes":["name"]
+        }
+    ],
+    "cubes": [
+        {
+            "name": "restaurant_details",
+            "dimensions": ["location", "evaluation", "name"],
+            "measures": [
+                {"name":"price_range", "label":"Price"},
+                {"name":"number_of_reviews", "label":"Number of reviews"}
+            ],
+            "aggregates": [
+                    {
+                        "name": "price_range_sum",
+                        "function": "sum",
+                        "measure": "price_range"
+                    },
+                    {
+                        "name": "ratingValue_average",
+                        "function": "avg",
+                        "measure":"ratingValue"
+                    }
+                ],
+            "mappings": {
+                          "location.Street": "street_city",
+                          "location.Street_label":"street_city_label"
+                          "location.State": "state",
+                          "location.State_label":"state_label",
+                          "location.Zipode": "zipcode",
+                          "evaluation."
+                          "item.subcategory": "subcategory",
+                          "item.subcategory_label": "subcategory_label",
+                          "item.category": "category",
+                          "item.category_label": "category_label"
+            }
+        }
+    ]
+}
