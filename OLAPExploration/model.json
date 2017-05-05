@@ -43,7 +43,7 @@
         {
           "name":"name",
           "label":"Restaurant",
-          "attributes":["name"]
+          "attributes":["name","name_label"]
         }
     ],
     "cubes": [
@@ -65,19 +65,22 @@
                         "function": "avg",
                         "measure":"ratingValue"
                     }
-                ],
+             ],
             "mappings": {
-                          "location.Street": "street_city",
-                          "location.Street_label":"street_city_label"
-                          "location.State": "state",
-                          "location.State_label":"state_label",
-                          "location.Zipode": "zipcode",
-                          "evaluation."
-                          "item.subcategory": "subcategory",
-                          "item.subcategory_label": "subcategory_label",
-                          "item.category": "category",
-                          "item.category_label": "category_label"
+                          "location.street_city": "street_city",
+                          "location.street_city_label":"street_city_label",
+                          "location.state": "state",
+                          "location.state_label":"state_label",
+                          "location.zipcode": "zipcode",
+			  "location.zipcode_label": "zipcode_label" ,
+			  "evaluation.number_of_reviews": "number_of_reviews" ,
+			  "evaluation.number_of_reviews_label": "number_of_reviews_label",
+			  "evaluation.price_range": "price_range",
+			  "evaluation.price_range_label":"price_range_label",
+			  "evaluation.ratingValue": "ratingValue",
+			  "evaluation.ratingValue_label": "ratingValue_label"
             }
+
         }
     ]
 }
