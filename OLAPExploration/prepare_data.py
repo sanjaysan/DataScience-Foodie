@@ -19,9 +19,10 @@ create_table_from_csv(engine,
                           ("id", "integer"),
                           ("number_of_reviews", "integer"),
                           ("price_range", "float"),
-                          ("rating", "float"),
+                          ("ratingValue", "float"),
                           ("name", "string"),
-                          ("street_city", "string"),
+                          ("street", "string"),
+			  ("city","string"),
                           ("state", "string"),
                           ("zipcode", "integer")]
                       )

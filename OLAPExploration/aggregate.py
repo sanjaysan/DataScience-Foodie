@@ -17,7 +17,8 @@ result = browser.aggregate()
 
 print("Total\n-------------------------------")
 
-print("Price Range sum : %8d" % result.summary["price_range_sum"])
+print("Total number of reviews: %8d" % result.summary["total_number_of_reviews"])
+print("Price Average : %8d" % result.summary["price_average"])
 print("Rating Value average : %8d" % result.summary["rating_average"])
 
 # Drilling down by Location
@@ -25,31 +26,38 @@ print("\n"
       "Drill Down by Location\n"
       "======================")
 
-result = browser.aggregate(drilldown=["location"])
-browser.aggregate()
 
-print(("%-70s%4s%8s\n" + "-" * 84) % ("Street", "Price", "Rating"))
+result = browser.aggregate(drilldown=["location:state"])
+
+result = browser.aggregate(drilldown=["location:state"])
+
 for row in result.table_rows("location"):
-    print("%-70s%4d%8d" % (row.label,
-                           row.record["price_range_sum"],
-                           row.record["rating_average"])
-          )
+    print("%-70s%4d%8d%8d" % (row.label,
+			   row.record["total_number_of_reviews"],
+                           row.record["price_average"],
+			   row.record["rating_average"])
+
+	 )
+
+
+
 
 print("\n"
-      "Slice where Location = WA\n"
+      "Slice where Location = CA\n"
       "==================================================")
 
-cut = [
-    PointCut("location", ["WA"]),
-    PointCut("location", ["TX"])
-]
+cut = PointCut("location", ["CA"])
+cell = Cell(browser.cube,[cut])
+result = browser.aggregate(cell,drilldown=["location.state"])
 
-cell = Cell(browser.cube, cuts=cut)
-result = browser.aggregate(cell, drilldown=["location"])
-print(("%-20s%10s\n" + "-" * 50) % ("State", "Zipcode"))
+print(("%-20s%4s%4s%4s\n" + "-" * 84) % ("State","Number_of_reviews", "Price", "Rating"))
 
-for row in result.table_rows("location"):
-    print("%-20s%4d%8d" % (row.label,
-                           row.record["price_range_sum"],
-                           row.record["rating_average"]
-                           ))
+for row in result:
+    print ( "%-20s%4d%4d%4d" % (row["location.state"], row["total_number_of_reviews"],row["price_average"],row["rating_average"]) )
+
+
+
+
+
+
+
