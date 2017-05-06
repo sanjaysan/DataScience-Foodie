@@ -6,17 +6,17 @@
                 {
                     "name":"street_city",
                     "label":"Street",
-                    "attributes": ["street_city", "street_city_label"]
+                    "attributes": ["street_city"]
                 },
                 {
                     "name":"state",
                     "label":"State",
-                    "attributes": ["state", "state_label"]
+                    "attributes": ["state"]
                 },
                 {
                     "name":"zipcode",
                     "label":"Zipcode",
-                    "attributes": ["zipcode", "zipcode_label"]
+                    "attributes": ["zipcode"]
                 }
             ]
         },
@@ -26,24 +26,24 @@
                 {
                     "name":"number_of_reviews",
                     "label":"Number_of_reviews",
-                    "attributes": ["number_of_reviews", "number_of_reviews_label"]
+                    "attributes": ["number_of_reviews"]
                 },
                 {
                     "name":"price_range",
                     "label":"Price",
-                    "attributes": ["price_range", "price_range_label"]
+                    "attributes": ["price_range"]
                 },
                 {
-                    "name":"ratingValue",
-                    "label":"Rating_Value",
-                    "attributes": ["ratingValue", "ratingValue_label"]
+                    "name":"rating",
+                    "label":"Rating",
+                    "attributes": ["rating"]
                 }
             ]
         },
         {
           "name":"name",
           "label":"Restaurant",
-          "attributes":["name","name_label"]
+          "attributes":["name"]
         }
     ],
     "cubes": [
@@ -52,18 +52,19 @@
             "dimensions": ["location", "evaluation", "name"],
             "measures": [
                 {"name":"price_range", "label":"Price"},
-                {"name":"number_of_reviews", "label":"Number of reviews"}
+                {"name":"number_of_reviews", "label":"Number of reviews"},
+                {"name":"rating", "label":"Rating"}
             ],
             "aggregates": [
+                    {
+                        "name": "rating_average",
+                        "function": "avg",
+                        "measure":"rating"
+                    },
                     {
                         "name": "price_range_sum",
                         "function": "sum",
                         "measure": "price_range"
-                    },
-                    {
-                        "name": "ratingValue_average",
-                        "function": "avg",
-                        "measure":"ratingValue"
                     }
              ],
             "mappings": {
@@ -72,13 +73,13 @@
                           "location.state": "state",
                           "location.state_label":"state_label",
                           "location.zipcode": "zipcode",
-			  "location.zipcode_label": "zipcode_label" ,
-			  "evaluation.number_of_reviews": "number_of_reviews" ,
-			  "evaluation.number_of_reviews_label": "number_of_reviews_label",
-			  "evaluation.price_range": "price_range",
-			  "evaluation.price_range_label":"price_range_label",
-			  "evaluation.ratingValue": "ratingValue",
-			  "evaluation.ratingValue_label": "ratingValue_label"
+			              "location.zipcode_label": "zipcode_label" ,
+                          "evaluation.number_of_reviews": "number_of_reviews" ,
+                          "evaluation.number_of_reviews_label": "number_of_reviews_label",
+                          "evaluation.price_range": "price_range",
+                          "evaluation.price_range_label":"price_range_label",
+                          "evaluation.rating": "rating",
+                          "evaluation.rating_label": "rating_label"
             }
 
         }
