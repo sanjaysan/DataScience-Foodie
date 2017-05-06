@@ -1,0 +1,53 @@
+{
+
+   "dimensions": [
+    	{"name":"location","attributes":["id","street","city","state","zipcode"]},
+    	{"name":"restaurant","attributes":["id","name"]}
+
+     ], 
+	
+    "cubes": [
+        {
+            "name": "restaurant_details",
+            "dimensions": ["location","restaurant"],
+            "measures": [
+                {"name":"ratingValue", "label":"rating_average"},
+                {"name":"price_range", "label":"price_average"},
+                {"name":"number_of_reviews", "label":"total_number_of_reviews"}
+            ],
+            "aggregates": [
+                    {
+                        "name": "rating_average",
+                        "function": "avg",
+                        "measure":"ratingValue"
+                    },
+                    {
+                        "name": "price_average",
+                        "function": "avg",
+                        "measure": "price_range"
+                    },
+		    {
+			"name":"total_number_of_reviews",
+			"function": "sum",
+			"measure": "number_of_reviews"
+		    }
+
+
+             ],
+            "mappings": {
+			  "location.id" : "restaurant_details.id",
+                          "location.street": "restaurant_details.street",
+                          "location.city": "restaurant_details.city",
+			  "location.state": "restaurant_details.state",
+                          "location.zipcode": "restaurant_details.zipcode",
+			  "ratingValue": "restaurant_details.ratingValue",
+			  "price_range": "restaurant_details.price_range",
+			  "number_of_reviews": "restaurant_details.number_of_reviews", 
+			  "restaurant.id":" restaurant_details.id",
+			  "restaurant.name": "restaurant_details.name"
+			 
+            }
+
+        }
+    ]
+}
