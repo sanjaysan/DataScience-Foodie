@@ -28,7 +28,7 @@ id,number_of_reviews,price_range,ratingValue,name,address
 26,2136,35.0,3.8,smoking pig bbq company,1144 North 4th St San Jose CA 95112
 27,463,32.5,3.6,chan seattle,Inn At The Market 86 Pine St Seattle WA 98101
 28,1107,47.5,4.5,tilikum place cafe,407 Cedar St Seattle WA 98121
-29,780,32.5,3.6,radiator whiskey,Pike Place Market 94 Pike St Suite 30 WA 98101
+29,780,32.5,3.6,radiator whiskey,Pike Place Market 94 Pike St Suite 30 Seattle WA 98101
 30,224,45.0,3.6,pomodoro,2366 Eastlake Avenue E Eastlake/Lake Union Seattle WA 98102
 31,4397,22.5,4.5,pike place chowder,Pike Place Market 1530 Post Alley Seattle WA 98101
 33,229,35.0,4.5,manolin,3621 Stone Way N Seattle WA 98103
@@ -116,7 +116,7 @@ id,number_of_reviews,price_range,ratingValue,name,address
 115,172,145.5,3.6,jeffrey’s,1204 West Lynn St Austin TX 78703
 116,1824,45.0,4.5,south congress cafe,1600 S Congress Avenue Austin TX 78704
 117,657,40.0,4.3,ristorante machiavelli,1215 Pine St Seattle WA 98101
-118,1608,12.5,4.5,the crumpet shop,Pike Place Market 1503 1st Avenue WA 98101
+118,1608,12.5,4.5,the crumpet shop,Pike Place Market 1503 1st Avenue Seattle WA 98101
 119,714,62.5,3.9,tavolata,2323 2nd Avenue Seattle WA 98121
 120,711,35.0,3.8,sweet mango,1040 Willow St San Jose CA 95125
 121,428,40.0,4.2,noodle pudding,38 Henry St Brooklyn NY 11201
@@ -905,7 +905,7 @@ id,number_of_reviews,price_range,ratingValue,name,address
 907,493,20.0,3.6,pacha,4618 Burnet Road Austin TX 78756
 908,283,72.5,3.6,el naranjo,85 Rainey St Austin TX 78701
 909,223,30.0,3.5,uncle julio’s,301 Brazos St Suite 150 Austin TX 78701
-910,768,40.0,3.5,max’s wine dive,207 San Jacinto Blvd Suite 200 TX 78701
+910,768,40.0,3.5,max’s wine dive,207 San Jacinto Blvd Suite 200 Austin TX 78701
 911,368,15.0,3.9,tam deli & cafe,8222 N Lamar Blvd Suite D33 Austin TX 78753
 912,1137,72.5,3.8,employees only,510 Hudson St New York NY 10014
 913,117,27.5,3.8,vios caf at third place,6504 20th Avenue NE Seattle WA 98115

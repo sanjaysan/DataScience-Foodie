@@ -16,14 +16,14 @@ create_table_from_csv(engine,
                       "./restaurant_details.csv",
                       table_name=FACT_TABLE,
                       fields=[
+                          ("id", "integer"),
                           ("number_of_reviews", "integer"),
                           ("price_range", "float"),
-                          ("ratingValue", "float"),
+                          ("rating", "float"),
                           ("name", "string"),
                           ("street_city", "string"),
                           ("state", "string"),
-                          ("zipcode", "integer")],
-                      create_id=True
+                          ("zipcode", "integer")]
                       )
 
 print("restaurant.sqlite created")
