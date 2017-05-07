@@ -6,22 +6,8 @@ warnings.filterwarnings('ignore')
 count = 1
 
 def rollup(cell, dimension):
-    global count
-    """Drill-down and aggregate recursively through als levels of `dimension`.
-
-    This function is like recursively traversing directories on a file system
-    and aggregating the file sizes, for example.
-
-    * `cell` - cube cell to drill-down
-    * `dimension` - dimension to be traversed through all levels
-    """
-
-
     result = browser.aggregate(cell, drilldown=[dimension])
-
-    # for row in cubes.drilldown_rows(cell, result, dimension):
     for row in result.table_rows(dimension):
-        #indent = "    " * (len(row.path) - 1)
         print (row.label)
         print ("-" * 2)
         print ("Total Number of reviews: %d" % (row.record["total_number_of_reviews"]))
@@ -29,14 +15,33 @@ def rollup(cell, dimension):
         print("Rating average: %d" % float(row.record["rating_average"]))
         print ("\n")
 
-        # new_cell = cell.drilldown(dimension, row.key)
-        # if new_cell is not None:
-        #     count += 1
-        #     if (count >= 2):
-        #         count = 1
-        #         break
+"""Drill-down and aggregate recursively through als levels of `dimension`.
 
-        # drilldown(cell, dimension)
+* `cell` - cube cell to drill-down
+* `dimension` - dimension to be traversed through all levels
+
+"""
+def drilldown(cell, dimension, level):
+    global count
+
+    result = browser.aggregate(cell, drilldown=[dimension])
+    for row in result.table_rows(dimension):
+        indent = "    " * (len(row.path) - 1)
+        print(indent, row.label)
+        print(indent, "-" * 3)
+        print(indent, "Total Number of reviews: %d" % (row.record["total_number_of_reviews"]))
+        print(indent, "Price average: %d" % float(row.record["price_average"]))
+        print(indent, "Rating average: %d" % float(row.record["rating_average"]))
+        print("\n")
+
+
+        count += 1
+        if (count >= level):
+            count = 1
+            break
+        new_cell = cell.drilldown(dimension, row.key)
+        drilldown(new_cell, dimension, level)
+
 
 # 1. Creating a workspace
 workspace = Workspace()
@@ -44,56 +49,28 @@ workspace.register_default_store("sql", url="sqlite:///restaurant.sqlite")
 workspace.import_model("model.json")
 
 # 2. Getting a browser
-browser = workspace.browser("restaurant_details")
+cube = workspace.cube("restaurant_details")
+browser = workspace.browser(cube)
 
-# 3. Aggregating the results
-# result = browser.aggregate()
+dimension = cube.dimension("location")
 
-# print("Total\n-------------------------------")
-#
-# print("Total number of reviews: %8d" % result.summary["total_number_of_reviews"])
-# print("Price Average : %8d" % result.summary["price_average"])
-# print("Rating Value average : %8d" % result.summary["rating_average"])
-
-# Drilling down by Location
+# Rolling up by Location
 print("\n"
-      "Drill Down by Location\n"
+      "Roll up to state\n"
       "======================")
 
 cell = Cell(browser.cube)
 rollup(cell, "location")
 
+# Drilling down by location
+print("\n"
+      "Drill down by state\n"
+      "======================")
+drilldown(cell, "location", 3)
 
-# result = browser.aggregate(cell, drilldown=["location"])
-#
-#
-# for row in result.table_rows("location"):
-#     print("%-70s%4d%8d%8d" % (row.label,
-# 			   row.record["total_number_of_reviews"],
-#                            row.record["price_average"],
-# 			   row.record["rating_average"])
-# 	 )
-#     new_cell = cell.drilldown("location", row.key)
-#
-#
-#
-#
-# print("\n"
-#       "Slice where Location = CA\n"
-#       "==================================================")
-#
-# cut = PointCut("location", ["CA"])
-# cell = Cell(browser.cube,[cut])
-# result = browser.aggregate(cell,drilldown=["location.state"])
-#
-# print(("%-20s%4s%4s%4s\n" + "-" * 84) % ("State","Number_of_reviews", "Price", "Rating"))
-#
-# for row in result:
-#     print ( "%-20s%4d%4d%4d" % (row["location.state"], row["total_number_of_reviews"],row["price_average"],row["rating_average"]) )
-#
-#
-#
-#
-
-
-
+# Drilling down by location
+print("\n"
+      "Slice by State\n"
+      "======================")
+cell = cell.slice(PointCut("location", ["CA"]))
+drilldown(cell, "location",  2)

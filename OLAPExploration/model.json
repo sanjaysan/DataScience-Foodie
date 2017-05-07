@@ -26,9 +26,9 @@
             ],
             "hierarchies": [
                 {
-                    "name": "bystate",
-                    "label": "bystate",
-                    "levels": ["state"]
+                    "name": "bycity",
+                    "label": "bycity",
+                    "levels": ["state", "city"]
                 }
             ]
         },
