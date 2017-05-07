@@ -23,6 +23,13 @@
                     "label":"Zipcode",
                     "attributes": ["zipcode"]
                 }
+            ],
+            "hierarchies": [
+                {
+                    "name": "bystate",
+                    "label": "bystate",
+                    "levels": ["state"]
+                }
             ]
         },
         {
