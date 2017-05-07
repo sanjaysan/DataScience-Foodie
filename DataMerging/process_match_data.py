@@ -77,4 +77,4 @@ for index, row in match_data.iterrows():
 
     match_table_id += 1
 
-match_processed.to_csv('./restaurant_details.csv', encoding='utf-8')
+match_processed.to_csv('../OLAPExploration/restaurant_details.csv', encoding='utf-8')

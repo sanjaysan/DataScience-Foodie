@@ -51,18 +51,16 @@
                         "function": "avg",
                         "measure": "price_range"
                     },
-		    {
-			"name":"total_number_of_reviews",
-			"function": "sum",
-			"measure": "number_of_reviews"
-		    }
-
-
+                    {
+                    "name":"total_number_of_reviews",
+                    "function": "sum",
+                    "measure": "number_of_reviews"
+                    }
              ],
             "mappings": {
                           "location.street": "street",
                           "location.city": "city",
-			  "location.state": "state",
+			              "location.state": "state",
                           "location.zipcode": "zipcode"
             }
 

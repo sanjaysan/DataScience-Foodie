@@ -22,7 +22,7 @@ create_table_from_csv(engine,
                           ("ratingValue", "float"),
                           ("name", "string"),
                           ("street", "string"),
-			  ("city","string"),
+                          ("city", "string"),
                           ("state", "string"),
                           ("zipcode", "integer")]
                       )

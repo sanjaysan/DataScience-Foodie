@@ -1,4 +1,4 @@
-id,number_of_reviews,price_range,ratingValue,name,street,city,state,zipcode
+,number_of_reviews,price_range,ratingValue,name,street,city,state,zipcode
 0,1041,20.5,4.1,canlis,2576 Aurora Avenue,Seattle,WA,98109
 1,1210,2.5,4.5,list,2226 1st,Seattle,WA,98121
 2,890,5.0,3.9,second bar + kitchen,200 Congress,Austin,TX,78701
