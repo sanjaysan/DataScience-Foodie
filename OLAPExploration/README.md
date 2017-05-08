@@ -9,17 +9,19 @@ Created a python script to process this table and split the address fields into 
 Show sample tuples from this CSV OLAPExploration/restaurant_details.csv
 
 We wanted to do OLAP style exploration for data analysis
-Tried CUBES framework
+
+We did it using two methods:
+
+1) Tried CUBES framework
  -- Able to create sqlite db from CSV table ( taken as fact table)
  -- Created a model.json detailing schema of dimension table and also aggregate functions on dimension attributes
+ -- The dimension schema was location(street, city, state, zipcode). This table is not created, but modeled from the model.json
  -- Created a python script to parse model.json file and was able to aggregate over entire table
 
 
-However ran into issues while trying to rollup/drilldown and couldnt proceed with this framework
+2) Used sqlite3 database engine to analyze the sqlite db. Wrote OLAP-style SQL queries for analysis/
 
-Hence used sqlite3 database engine to analyze the sqlite db. Wrote SQL queries for analysis purposes
-
-Measure attributes : Sum(number_of_reviews), Average( price_range ), Average( ratingValue )
+Measure attributes : Sum(number_of_reviews), Average(price_range), Average(ratingValue)
 
 
 --State based analysis
