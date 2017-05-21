@@ -1,2 +1,2 @@
 # DataScience-Foodie
-Contains code and data related to CS838 Spring 2017 Project
+A project which implements the Data Science pipeline - Extracting raw data, Data Cleaning, Feature Extraction, Entity Matching, Data Matching, Data Merging and OLAP style exploration. The two entities chosen are Yelp and Zomato. Restaurant data from the same localities will be extracted from both sites and similar restaurants will be merged into one big table. OLAP style exploration will be done on that table to find out the insights from the collected data (Eg, Which is the most highly rated restaurant in California)
